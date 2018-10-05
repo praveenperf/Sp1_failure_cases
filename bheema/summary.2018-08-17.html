@@ -1,0 +1,4394 @@
+        <html><body>
+        <h2>Statement Parser 2 Failure Analysis [host = bheema, date = 2018-08-17]</h2>
+        <h3>Summary</h3><ul>
+        <li>Total Attempts - 16677</li>
+        <li>SP2 failure - 715 times</li>
+        <li>When SP2 failed - SP1 succeeded 191 times, failed 509 times, unknown status (timed out?) 15 times</li>
+        <li>Nature of SP2 failure - Total: 715, Unidentified: 591, Unimplemented: 5, Parser Failure: 119, Itemizer Failure: 0, Tabula Failure: 0, Internal Error: 0, Others: 0</li>
+        </ul>
+<h3>Details</h3><table border="1"><tr><th>Data dir &amp; files</th><th>Declared inst_id</th><th>SP2 Failure</th><th>SP1 Result</th></tr>
+<tr><td><a href="2018-08-17/52360230/out" target="_out">52360230</a>
+<a href="2018-08-17/52360230/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52360230/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52360700 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52362100 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52381210 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td><a href="2018-08-17/52381850/out" target="_out">52381850</a>
+<a href="2018-08-17/52381850/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+21</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52381920/out" target="_out">52381920</a>
+<a href="2018-08-17/52381920/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52381920/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+21</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>52386690 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52387860 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52388300/out" target="_out">52388300</a>
+<a href="2018-08-17/52388300/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52388300/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52393340/out" target="_out">52393340</a>
+<a href="2018-08-17/52393340/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52393340/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52395170/out" target="_out">52395170</a>
+<a href="2018-08-17/52395170/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52395170/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52395170/.pass" target="_stmt">Password</a>
+</td><td>
+52</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52395810/out" target="_out">52395810</a>
+<a href="2018-08-17/52395810/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52395810/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52397290/out" target="_out">52397290</a>
+<a href="2018-08-17/52397290/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52397290/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399920/out" target="_out">52399920</a>
+<a href="2018-08-17/52399920/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399920/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399930/out" target="_out">52399930</a>
+<a href="2018-08-17/52399930/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399930/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52400400/out" target="_out">52400400</a>
+<a href="2018-08-17/52400400/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52400400/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52400400/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52400620 Duplicate</td><td>
+251</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>52401330 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52402880 Duplicate</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52403830/out" target="_out">52403830</a>
+<a href="2018-08-17/52403830/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52403830/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52404340/out" target="_out">52404340</a>
+<a href="2018-08-17/52404340/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52404340/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52404790/out" target="_out">52404790</a>
+<a href="2018-08-17/52404790/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52404790/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52404790/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52405260/out" target="_out">52405260</a>
+<a href="2018-08-17/52405260/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52405260/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52405260/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52405450 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52406380/out" target="_out">52406380</a>
+<a href="2018-08-17/52406380/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52406380/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52409950/out" target="_out">52409950</a>
+<a href="2018-08-17/52409950/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52409950/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52409980 Duplicate</td><td>
+45</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn -00-29,\N,HOTEL SADANAND GOREGAON,2560,23449.77</td>
+</tr>
+<tr><td><a href="2018-08-17/52411360/out" target="_out">52411360</a>
+<a href="2018-08-17/52411360/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52411360/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_FILE_NOT_STATEMENT Please upload a valid bank statement</td>
+</tr>
+<tr><td>52413400 Duplicate</td><td>
+46</td><td>
+Unimplemented</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52413830 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52414750 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52415380 Duplicate</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52417410 Duplicate</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52418050/out" target="_out">52418050</a>
+<a href="2018-08-17/52418050/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418050/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52418050/.pass" target="_stmt">Password</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52418730/out" target="_out">52418730</a>
+<a href="2018-08-17/52418730/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418730/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52418730/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52419640/out" target="_out">52419640</a>
+<a href="2018-08-17/52419640/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52419640/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52423430/out" target="_out">52423430</a>
+<a href="2018-08-17/52423430/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52423430/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52423430/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52425370/out" target="_out">52425370</a>
+<a href="2018-08-17/52425370/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52425370/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52425760/out" target="_out">52425760</a>
+<a href="2018-08-17/52425760/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52425760/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52430560/out" target="_out">52430560</a>
+<a href="2018-08-17/52430560/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52430560/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52430560/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52431360/out" target="_out">52431360</a>
+<a href="2018-08-17/52431360/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52431360/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52431360/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52432480/out" target="_out">52432480</a>
+<a href="2018-08-17/52432480/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52432480/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52434110 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52434140 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52437170/out" target="_out">52437170</a>
+<a href="2018-08-17/52437170/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52437170/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52439990/out" target="_out">52439990</a>
+<a href="2018-08-17/52439990/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52439990/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52440070 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52440840/out" target="_out">52440840</a>
+<a href="2018-08-17/52440840/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52440840/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52441450/out" target="_out">52441450</a>
+<a href="2018-08-17/52441450/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52441450/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52442060/out" target="_out">52442060</a>
+<a href="2018-08-17/52442060/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442060/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52443420 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52443700/out" target="_out">52443700</a>
+<a href="2018-08-17/52443700/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52443700/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52447870/out" target="_out">52447870</a>
+<a href="2018-08-17/52447870/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52447870/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52449390/out" target="_out">52449390</a>
+<a href="2018-08-17/52449390/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52449390/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52451610/out" target="_out">52451610</a>
+<a href="2018-08-17/52451610/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52451610/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52452640 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52454080/out" target="_out">52454080</a>
+<a href="2018-08-17/52454080/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52454080/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52454080/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52454140/out" target="_out">52454140</a>
+<a href="2018-08-17/52454140/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52454140/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52454140/.pass" target="_stmt">Password</a>
+</td><td>
+83</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52455770/out" target="_out">52455770</a>
+<a href="2018-08-17/52455770/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52455770/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52455770/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52457080 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52457120 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52457760/out" target="_out">52457760</a>
+<a href="2018-08-17/52457760/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457760/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52458120/out" target="_out">52458120</a>
+<a href="2018-08-17/52458120/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52458120/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52459410/out" target="_out">52459410</a>
+<a href="2018-08-17/52459410/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52459410/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52460690/out" target="_out">52460690</a>
+<a href="2018-08-17/52460690/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52463550/out" target="_out">52463550</a>
+<a href="2018-08-17/52463550/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52463550/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52463910 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52464040 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52464070/out" target="_out">52464070</a>
+<a href="2018-08-17/52464070/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52464070/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52465430 Duplicate</td><td>
+45</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52466080/out" target="_out">52466080</a>
+<a href="2018-08-17/52466080/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52466080/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52466080/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52468750/out" target="_out">52468750</a>
+<a href="2018-08-17/52468750/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468750/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52469120/out" target="_out">52469120</a>
+<a href="2018-08-17/52469120/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469120/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469280 Duplicate</td><td>
+6</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>52469350 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52470980/out" target="_out">52470980</a>
+<a href="2018-08-17/52470980/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52470980/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52471510/out" target="_out">52471510</a>
+<a href="2018-08-17/52471510/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52471510/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52471640 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52471730/out" target="_out">52471730</a>
+<a href="2018-08-17/52471730/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52471730/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52476700/out" target="_out">52476700</a>
+<a href="2018-08-17/52476700/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52477280 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52477290 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52477470/out" target="_out">52477470</a>
+<a href="2018-08-17/52477470/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52477470/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52477750/out" target="_out">52477750</a>
+<a href="2018-08-17/52477750/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52477750/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52477750/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52478080 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52361921 Duplicate</td><td>
+46</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52362001 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52376541/out" target="_out">52376541</a>
+<a href="2018-08-17/52376541/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52376541/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52376851 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52377621 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52382951/out" target="_out">52382951</a>
+<a href="2018-08-17/52382951/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52382951/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52382951/.pass" target="_stmt">Password</a>
+</td><td>
+45</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52389371/out" target="_out">52389371</a>
+<a href="2018-08-17/52389371/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52389371/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52389651/out" target="_out">52389651</a>
+<a href="2018-08-17/52389651/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52389651/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52389651/.pass" target="_stmt">Password</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52390251/out" target="_out">52390251</a>
+<a href="2018-08-17/52390251/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390251/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52390271/out" target="_out">52390271</a>
+<a href="2018-08-17/52390271/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390271/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52390371/out" target="_out">52390371</a>
+<a href="2018-08-17/52390371/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390371/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52396201/out" target="_out">52396201</a>
+<a href="2018-08-17/52396201/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52396241 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52396721/out" target="_out">52396721</a>
+<a href="2018-08-17/52396721/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52396721/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52396721/.pass" target="_stmt">Password</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52397681/out" target="_out">52397681</a>
+<a href="2018-08-17/52397681/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52397681/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52398111 Duplicate</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52399071 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399911/out" target="_out">52399911</a>
+<a href="2018-08-17/52399911/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399911/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52402651 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52405001 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52406701 Duplicate</td><td>
+11</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>52408281 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52408661/out" target="_out">52408661</a>
+<a href="2018-08-17/52408661/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52408661/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52408661/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52412491 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52413541 Duplicate</td><td>
+46</td><td>
+Unimplemented</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52413661 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52413761 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52414251/out" target="_out">52414251</a>
+<a href="2018-08-17/52414251/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52414251/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52414251/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>52414751 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52423691 Duplicate</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52437881/out" target="_out">52437881</a>
+<a href="2018-08-17/52437881/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52437881/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52438221 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52439061/out" target="_out">52439061</a>
+<a href="2018-08-17/52439061/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52439061/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52439061/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52443711/out" target="_out">52443711</a>
+<a href="2018-08-17/52443711/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52443711/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52446101 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52448501/out" target="_out">52448501</a>
+<a href="2018-08-17/52448501/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52448501/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52449351/out" target="_out">52449351</a>
+<a href="2018-08-17/52449351/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52449351/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52449461/out" target="_out">52449461</a>
+<a href="2018-08-17/52449461/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52449461/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52450451/out" target="_out">52450451</a>
+<a href="2018-08-17/52450451/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52450451/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52450721/out" target="_out">52450721</a>
+<a href="2018-08-17/52450721/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52450721/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52451611/out" target="_out">52451611</a>
+<a href="2018-08-17/52451611/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52451611/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52451891/out" target="_out">52451891</a>
+<a href="2018-08-17/52451891/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52451891/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-04-26,\N,Sender,1999.20,</td>
+</tr>
+<tr><td><a href="2018-08-17/52455231/out" target="_out">52455231</a>
+<a href="2018-08-17/52455231/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52455231/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+49</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52456531/out" target="_out">52456531</a>
+<a href="2018-08-17/52456531/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52456531/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52456531/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52457331 Duplicate</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52457411/out" target="_out">52457411</a>
+<a href="2018-08-17/52457411/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457411/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52457961 Duplicate</td><td>
+45</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52460081/out" target="_out">52460081</a>
+<a href="2018-08-17/52460081/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52460081/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52460801/out" target="_out">52460801</a>
+<a href="2018-08-17/52460801/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52460801/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52461401 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52468151/out" target="_out">52468151</a>
+<a href="2018-08-17/52468151/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468151/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52468491/out" target="_out">52468491</a>
+<a href="2018-08-17/52468491/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468491/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52468491/.pass" target="_stmt">Password</a>
+</td><td>
+41</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469121/out" target="_out">52469121</a>
+<a href="2018-08-17/52469121/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469121/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469831/out" target="_out">52469831</a>
+<a href="2018-08-17/52469831/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469831/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52470651/out" target="_out">52470651</a>
+<a href="2018-08-17/52470651/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52470651/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52471641 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52472001/out" target="_out">52472001</a>
+<a href="2018-08-17/52472001/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52472001/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52472001/.pass" target="_stmt">Password</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52473891/out" target="_out">52473891</a>
+<a href="2018-08-17/52473891/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52473891/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52475321 Duplicate</td><td>
+3</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52476101 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52477081/out" target="_out">52477081</a>
+<a href="2018-08-17/52477081/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52477081/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52477081/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52477191/out" target="_out">52477191</a>
+<a href="2018-08-17/52477191/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52477191/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52478691/out" target="_out">52478691</a>
+<a href="2018-08-17/52478691/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52478691/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52478691/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52336192/out" target="_out">52336192</a>
+<a href="2018-08-17/52336192/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52336192/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52361842/out" target="_out">52361842</a>
+<a href="2018-08-17/52361842/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52361842/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+46</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52362862 Duplicate</td><td>
+28</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52380082/out" target="_out">52380082</a>
+<a href="2018-08-17/52380082/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52380082/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52380082/.pass" target="_stmt">Password</a>
+</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td>52380262 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td>52382742 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52385522/out" target="_out">52385522</a>
+<a href="2018-08-17/52385522/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52385522/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52388482 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52389982 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52393542/out" target="_out">52393542</a>
+<a href="2018-08-17/52393542/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52393542/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+26</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52397242/out" target="_out">52397242</a>
+<a href="2018-08-17/52397242/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52397242/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+259</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-08-17/52397272/out" target="_out">52397272</a>
+<a href="2018-08-17/52397272/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52397272/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399922/out" target="_out">52399922</a>
+<a href="2018-08-17/52399922/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399922/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52403182/out" target="_out">52403182</a>
+<a href="2018-08-17/52403182/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52403182/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>52403622 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52404092/out" target="_out">52404092</a>
+<a href="2018-08-17/52404092/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52404092/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52404092/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52404962 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52406172/out" target="_out">52406172</a>
+<a href="2018-08-17/52406172/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52406172/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>52408632 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52409692/out" target="_out">52409692</a>
+<a href="2018-08-17/52409692/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52409692/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52411652/out" target="_out">52411652</a>
+<a href="2018-08-17/52411652/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52411652/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52412572 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52413462 Duplicate</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52414762 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52415142/out" target="_out">52415142</a>
+<a href="2018-08-17/52415142/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52415142/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-08-17/52418652/out" target="_out">52418652</a>
+<a href="2018-08-17/52418652/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418652/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52418652/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52418782/out" target="_out">52418782</a>
+<a href="2018-08-17/52418782/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418782/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52418792/out" target="_out">52418792</a>
+<a href="2018-08-17/52418792/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418792/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52419142 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52420932/out" target="_out">52420932</a>
+<a href="2018-08-17/52420932/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52420932/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52421792 Duplicate</td><td>
+41</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52423152/out" target="_out">52423152</a>
+<a href="2018-08-17/52423152/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52423152/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52424282/out" target="_out">52424282</a>
+<a href="2018-08-17/52424282/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52424282/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52425442/out" target="_out">52425442</a>
+<a href="2018-08-17/52425442/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52425442/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52425442/.pass" target="_stmt">Password</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52432172/out" target="_out">52432172</a>
+<a href="2018-08-17/52432172/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52432172/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+170</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.</td>
+</tr>
+<tr><td><a href="2018-08-17/52433892/out" target="_out">52433892</a>
+<a href="2018-08-17/52433892/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52433892/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52434682 Duplicate</td><td>
+25</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52435802/out" target="_out">52435802</a>
+<a href="2018-08-17/52435802/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52435802/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52436412/out" target="_out">52436412</a>
+<a href="2018-08-17/52436412/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52436412/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52436942/out" target="_out">52436942</a>
+<a href="2018-08-17/52436942/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52436942/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52440862/out" target="_out">52440862</a>
+<a href="2018-08-17/52440862/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52440862/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52442342/out" target="_out">52442342</a>
+<a href="2018-08-17/52442342/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442342/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52442342/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52449402/out" target="_out">52449402</a>
+<a href="2018-08-17/52449402/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52449402/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52450102/out" target="_out">52450102</a>
+<a href="2018-08-17/52450102/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52450102/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+17</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52452142 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-04-26,\N,Sender,1999.20,</td>
+</tr>
+<tr><td><a href="2018-08-17/52452542/out" target="_out">52452542</a>
+<a href="2018-08-17/52452542/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52452542/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+46</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52453692 Duplicate</td><td>
+11</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52455902/out" target="_out">52455902</a>
+<a href="2018-08-17/52455902/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52455902/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52457542/out" target="_out">52457542</a>
+<a href="2018-08-17/52457542/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457542/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52459952/out" target="_out">52459952</a>
+<a href="2018-08-17/52459952/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52459952/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-08-17/52460712/out" target="_out">52460712</a>
+<a href="2018-08-17/52460712/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52460712/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+45</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52460862 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52460892 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52463262/out" target="_out">52463262</a>
+<a href="2018-08-17/52463262/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52463262/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52463642/out" target="_out">52463642</a>
+<a href="2018-08-17/52463642/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52463642/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52463832 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52464202 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52466082/out" target="_out">52466082</a>
+<a href="2018-08-17/52466082/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52466082/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52467262/out" target="_out">52467262</a>
+<a href="2018-08-17/52467262/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52467262/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52467262/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469122/out" target="_out">52469122</a>
+<a href="2018-08-17/52469122/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469122/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469252/out" target="_out">52469252</a>
+<a href="2018-08-17/52469252/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469252/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469272/out" target="_out">52469272</a>
+<a href="2018-08-17/52469272/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469272/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469342 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52470862/out" target="_out">52470862</a>
+<a href="2018-08-17/52470862/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52470862/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52470862/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52471252/out" target="_out">52471252</a>
+<a href="2018-08-17/52471252/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52471252/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52471642 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52476302/out" target="_out">52476302</a>
+<a href="2018-08-17/52476302/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52476302/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52476592/out" target="_out">52476592</a>
+<a href="2018-08-17/52476592/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52476592/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52361253/out" target="_out">52361253</a>
+<a href="2018-08-17/52361253/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52361253/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52361543 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52370873/out" target="_out">52370873</a>
+<a href="2018-08-17/52370873/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52370873/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52370873/.pass" target="_stmt">Password</a>
+</td><td>
+19</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52371113/out" target="_out">52371113</a>
+<a href="2018-08-17/52371113/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52371113/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52371893/out" target="_out">52371893</a>
+<a href="2018-08-17/52371893/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52371893/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52371893/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52372933/out" target="_out">52372933</a>
+<a href="2018-08-17/52372933/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52372933/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52372933/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52377213/out" target="_out">52377213</a>
+<a href="2018-08-17/52377213/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52377213/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52381693/out" target="_out">52381693</a>
+<a href="2018-08-17/52381693/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+21</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52382213/out" target="_out">52382213</a>
+<a href="2018-08-17/52382213/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52382213/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+21</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52384303/out" target="_out">52384303</a>
+<a href="2018-08-17/52384303/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52384303/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52384993 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52385073/out" target="_out">52385073</a>
+<a href="2018-08-17/52385073/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52385073/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52385863 Duplicate</td><td>
+42</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52386533/out" target="_out">52386533</a>
+<a href="2018-08-17/52386533/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52386533/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td>52387853 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52387943/out" target="_out">52387943</a>
+<a href="2018-08-17/52387943/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52387943/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52389923/out" target="_out">52389923</a>
+<a href="2018-08-17/52389923/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52389923/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52389923/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52390203 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td><a href="2018-08-17/52390413/out" target="_out">52390413</a>
+<a href="2018-08-17/52390413/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390413/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52393373/out" target="_out">52393373</a>
+<a href="2018-08-17/52393373/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52393373/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52393373/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52393613 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-08-17/52394403/out" target="_out">52394403</a>
+<a href="2018-08-17/52394403/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52394403/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+14</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52394763 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-08-17/52397243/out" target="_out">52397243</a>
+<a href="2018-08-17/52397243/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52397243/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+259</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-08-17/52400493/out" target="_out">52400493</a>
+<a href="2018-08-17/52400493/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52400493/.pass" target="_stmt">Password</a>
+</td><td>
+224</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No data found</td>
+</tr>
+<tr><td>52400643 Duplicate</td><td>
+224</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No data found</td>
+</tr>
+<tr><td>52402283 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52403063 Duplicate</td><td>
+224</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No data found</td>
+</tr>
+<tr><td>52403703 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52403763 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52407343/out" target="_out">52407343</a>
+<a href="2018-08-17/52407343/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52407343/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+19</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52407493/out" target="_out">52407493</a>
+<a href="2018-08-17/52407493/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52407493/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52408643/out" target="_out">52408643</a>
+<a href="2018-08-17/52408643/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52408643/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52409603/out" target="_out">52409603</a>
+<a href="2018-08-17/52409603/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52409603/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52411253/out" target="_out">52411253</a>
+<a href="2018-08-17/52411253/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52411253/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+17</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52415003/out" target="_out">52415003</a>
+<a href="2018-08-17/52415003/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52415003/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52417193/out" target="_out">52417193</a>
+<a href="2018-08-17/52417193/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52417193/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52419513/out" target="_out">52419513</a>
+<a href="2018-08-17/52419513/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52419513/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52419513/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52421883/out" target="_out">52421883</a>
+<a href="2018-08-17/52421883/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52421883/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52427873/out" target="_out">52427873</a>
+<a href="2018-08-17/52427873/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52427873/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52427873/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td>52428443 Duplicate</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52428863/out" target="_out">52428863</a>
+<a href="2018-08-17/52428863/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52428863/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+44</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52428933 Duplicate</td><td>
+44</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52429123/out" target="_out">52429123</a>
+<a href="2018-08-17/52429123/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52429123/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td>52430843 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52431533/out" target="_out">52431533</a>
+<a href="2018-08-17/52431533/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52431533/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52431533/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52434353/out" target="_out">52434353</a>
+<a href="2018-08-17/52434353/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52434353/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+92</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52436423/out" target="_out">52436423</a>
+<a href="2018-08-17/52436423/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52436423/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52437253 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52440743/out" target="_out">52440743</a>
+<a href="2018-08-17/52440743/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52440743/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52440743/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52448803 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52450043 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-05-01] dateGap [623] for xn [2020-05-01,\N,18 B/F... 0.00Cls out wdrl Funds Xfer From,0.00,227.86]</td>
+</tr>
+<tr><td><a href="2018-08-17/52450233/out" target="_out">52450233</a>
+<a href="2018-08-17/52450233/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52450233/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52451123/out" target="_out">52451123</a>
+<a href="2018-08-17/52451123/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52451123/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52454113/out" target="_out">52454113</a>
+<a href="2018-08-17/52454113/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52454113/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+46</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52457623/out" target="_out">52457623</a>
+<a href="2018-08-17/52457623/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457623/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>52459243 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52460163/out" target="_out">52460163</a>
+<a href="2018-08-17/52460163/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52460163/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52461153/out" target="_out">52461153</a>
+<a href="2018-08-17/52461153/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52461153/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52463483 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td>52463853 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52464063 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52464443 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52466183/out" target="_out">52466183</a>
+<a href="2018-08-17/52466183/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52466183/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52466183/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52466803 Duplicate</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52468173/out" target="_out">52468173</a>
+<a href="2018-08-17/52468173/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468173/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52468173/.pass" target="_stmt">Password</a>
+</td><td>
+52</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52469123/out" target="_out">52469123</a>
+<a href="2018-08-17/52469123/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469123/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469343 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52471643 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52473733 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52474683/out" target="_out">52474683</a>
+<a href="2018-08-17/52474683/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52474683/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52477223 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52478053/out" target="_out">52478053</a>
+<a href="2018-08-17/52478053/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52478053/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52478623/out" target="_out">52478623</a>
+<a href="2018-08-17/52478623/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52478623/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52478623/.pass" target="_stmt">Password</a>
+</td><td>
+41</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52095924/out" target="_out">52095924</a>
+<a href="2018-08-17/52095924/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52095924/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52313194/out" target="_out">52313194</a>
+<a href="2018-08-17/52313194/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52313194/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52313194/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52362024 Duplicate</td><td>
+46</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52376164/out" target="_out">52376164</a>
+<a href="2018-08-17/52376164/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52376164/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52379144/out" target="_out">52379144</a>
+<a href="2018-08-17/52379144/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52379144/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52379144/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52382594/out" target="_out">52382594</a>
+<a href="2018-08-17/52382594/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52382594/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52385504/out" target="_out">52385504</a>
+<a href="2018-08-17/52385504/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52385504/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52385664 Duplicate</td><td>
+42</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52386144 Duplicate</td><td>
+28</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52386894 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52388144/out" target="_out">52388144</a>
+<a href="2018-08-17/52388144/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+81</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52389534 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td><a href="2018-08-17/52390394/out" target="_out">52390394</a>
+<a href="2018-08-17/52390394/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390394/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52392774/out" target="_out">52392774</a>
+<a href="2018-08-17/52392774/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52392774/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52393604 Duplicate</td><td>
+26</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52397014/out" target="_out">52397014</a>
+<a href="2018-08-17/52397014/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52397014/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52397694/out" target="_out">52397694</a>
+<a href="2018-08-17/52397694/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52397694/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52399914/out" target="_out">52399914</a>
+<a href="2018-08-17/52399914/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399914/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399924/out" target="_out">52399924</a>
+<a href="2018-08-17/52399924/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399924/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52401324/out" target="_out">52401324</a>
+<a href="2018-08-17/52401324/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401324/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52401814/out" target="_out">52401814</a>
+<a href="2018-08-17/52401814/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401814/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52401814/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52401884/out" target="_out">52401884</a>
+<a href="2018-08-17/52401884/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401884/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52402324 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52402334 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52403394/out" target="_out">52403394</a>
+<a href="2018-08-17/52403394/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52403394/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52408154/out" target="_out">52408154</a>
+<a href="2018-08-17/52408154/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52408154/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.</td>
+</tr>
+<tr><td><a href="2018-08-17/52408914/out" target="_out">52408914</a>
+<a href="2018-08-17/52408914/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52408914/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52410034 Duplicate</td><td>
+45</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn -00-29,\N,HOTEL SADANAND GOREGAON,2560,23449.77</td>
+</tr>
+<tr><td>52410784 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td><a href="2018-08-17/52411254/out" target="_out">52411254</a>
+<a href="2018-08-17/52411254/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52411254/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+17</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52411604/out" target="_out">52411604</a>
+<a href="2018-08-17/52411604/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52411604/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+21</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>52413594 Duplicate</td><td>
+46</td><td>
+Unimplemented</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52414734/out" target="_out">52414734</a>
+<a href="2018-08-17/52414734/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52414734/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52418084/out" target="_out">52418084</a>
+<a href="2018-08-17/52418084/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418084/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52418084/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52418414/out" target="_out">52418414</a>
+<a href="2018-08-17/52418414/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418414/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+224</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52418454/out" target="_out">52418454</a>
+<a href="2018-08-17/52418454/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418454/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52419534/out" target="_out">52419534</a>
+<a href="2018-08-17/52419534/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52419534/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52425134 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52425344 Duplicate</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52427074/out" target="_out">52427074</a>
+<a href="2018-08-17/52427074/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52427074/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52429234/out" target="_out">52429234</a>
+<a href="2018-08-17/52429234/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52429234/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52431604/out" target="_out">52431604</a>
+<a href="2018-08-17/52431604/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52431604/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52431604/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52436454 Duplicate</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52439164/out" target="_out">52439164</a>
+<a href="2018-08-17/52439164/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52439164/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52439164/.pass" target="_stmt">Password</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52440064/out" target="_out">52440064</a>
+<a href="2018-08-17/52440064/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52440064/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52440064/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52441514 Duplicate</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52441794 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52442044/out" target="_out">52442044</a>
+<a href="2018-08-17/52442044/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442044/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52442314/out" target="_out">52442314</a>
+<a href="2018-08-17/52442314/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442314/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52442314/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52449794/out" target="_out">52449794</a>
+<a href="2018-08-17/52449794/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52449794/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52449794/.pass" target="_stmt">Password</a>
+</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-05-01] dateGap [623] for xn [2020-05-01,\N,18 B/F... 0.00Cls out wdrl Funds Xfer From,0.00,227.86]</td>
+</tr>
+<tr><td>52449894 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-05-01] dateGap [623] for xn [2020-05-01,\N,18 B/F... 0.00Cls out wdrl Funds Xfer From,0.00,227.86]</td>
+</tr>
+<tr><td>52450154 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-05-01] dateGap [623] for xn [2020-05-01,\N,18 B/F... 0.00Cls out wdrl Funds Xfer From,0.00,227.86]</td>
+</tr>
+<tr><td>52450274 Duplicate</td><td>
+17</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52451614/out" target="_out">52451614</a>
+<a href="2018-08-17/52451614/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52451614/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52455084/out" target="_out">52455084</a>
+<a href="2018-08-17/52455084/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52455084/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52455244/out" target="_out">52455244</a>
+<a href="2018-08-17/52455244/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52455244/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52457034/out" target="_out">52457034</a>
+<a href="2018-08-17/52457034/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457034/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52457894/out" target="_out">52457894</a>
+<a href="2018-08-17/52457894/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457894/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+45</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52460064 Duplicate</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-08-17/52460654/out" target="_out">52460654</a>
+<a href="2018-08-17/52460654/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52460654/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52461224/out" target="_out">52461224</a>
+<a href="2018-08-17/52461224/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52461224/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52463274/out" target="_out">52463274</a>
+<a href="2018-08-17/52463274/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52463274/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52463864 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52465244/out" target="_out">52465244</a>
+<a href="2018-08-17/52465244/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52465244/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52468464/out" target="_out">52468464</a>
+<a href="2018-08-17/52468464/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468464/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469124/out" target="_out">52469124</a>
+<a href="2018-08-17/52469124/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469124/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469274/out" target="_out">52469274</a>
+<a href="2018-08-17/52469274/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469274/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469344 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52471404/out" target="_out">52471404</a>
+<a href="2018-08-17/52471404/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52471404/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52471644 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52471854/out" target="_out">52471854</a>
+<a href="2018-08-17/52471854/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52471854/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52475284/out" target="_out">52475284</a>
+<a href="2018-08-17/52475284/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52475284/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+3</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52475634/out" target="_out">52475634</a>
+<a href="2018-08-17/52475634/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52475634/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52475634/.pass" target="_stmt">Password</a>
+</td><td>
+83</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52475764/out" target="_out">52475764</a>
+<a href="2018-08-17/52475764/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52475764/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52476744/out" target="_out">52476744</a>
+<a href="2018-08-17/52476744/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52476744/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52361705/out" target="_out">52361705</a>
+<a href="2018-08-17/52361705/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52361705/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52361705/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52362015/out" target="_out">52362015</a>
+<a href="2018-08-17/52362015/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52362015/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52362015/.pass" target="_stmt">Password</a>
+</td><td>
+46</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52362055 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52362835/out" target="_out">52362835</a>
+<a href="2018-08-17/52362835/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52362835/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52370245/out" target="_out">52370245</a>
+<a href="2018-08-17/52370245/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52370245/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52370245/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52377065 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52377365/out" target="_out">52377365</a>
+<a href="2018-08-17/52377365/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52377365/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52377365/.pass" target="_stmt">Password</a>
+</td><td>
+51</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52378855/out" target="_out">52378855</a>
+<a href="2018-08-17/52378855/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52378855/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52381995 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td><a href="2018-08-17/52386305/out" target="_out">52386305</a>
+<a href="2018-08-17/52386305/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52386305/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td>52386865 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52387275 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52388725/out" target="_out">52388725</a>
+<a href="2018-08-17/52388725/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52388725/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52388725/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52391275/out" target="_out">52391275</a>
+<a href="2018-08-17/52391275/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52391275/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52395575/out" target="_out">52395575</a>
+<a href="2018-08-17/52395575/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52395575/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52395945/out" target="_out">52395945</a>
+<a href="2018-08-17/52395945/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52395945/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52395945/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399915/out" target="_out">52399915</a>
+<a href="2018-08-17/52399915/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399915/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399935/out" target="_out">52399935</a>
+<a href="2018-08-17/52399935/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399935/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52402555 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52402735/out" target="_out">52402735</a>
+<a href="2018-08-17/52402735/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52402735/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52403205 Duplicate</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52403605 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52403895/out" target="_out">52403895</a>
+<a href="2018-08-17/52403895/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52403895/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52404005/out" target="_out">52404005</a>
+<a href="2018-08-17/52404005/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52404005/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52406425/out" target="_out">52406425</a>
+<a href="2018-08-17/52406425/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52406425/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+195</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.</td>
+</tr>
+<tr><td><a href="2018-08-17/52406965/out" target="_out">52406965</a>
+<a href="2018-08-17/52406965/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52406965/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52411185 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td><a href="2018-08-17/52412905/out" target="_out">52412905</a>
+<a href="2018-08-17/52412905/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52412905/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+189</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.</td>
+</tr>
+<tr><td>52413545 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52414945/out" target="_out">52414945</a>
+<a href="2018-08-17/52414945/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52414945/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52414945/.pass" target="_stmt">Password</a>
+</td><td>
+26</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52416655 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52417075/out" target="_out">52417075</a>
+<a href="2018-08-17/52417075/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52417075/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52418425/out" target="_out">52418425</a>
+<a href="2018-08-17/52418425/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418425/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+224</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52419765 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52419875 Duplicate</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52420735/out" target="_out">52420735</a>
+<a href="2018-08-17/52420735/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52420735/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52420735/.pass" target="_stmt">Password</a>
+</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52421275 Duplicate</td><td>
+41</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52421335 Duplicate</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52426365/out" target="_out">52426365</a>
+<a href="2018-08-17/52426365/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52426365/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52429205 Duplicate</td><td>
+44</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52431735/out" target="_out">52431735</a>
+<a href="2018-08-17/52431735/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52431735/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.</td>
+</tr>
+<tr><td><a href="2018-08-17/52431765/out" target="_out">52431765</a>
+<a href="2018-08-17/52431765/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52431765/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52431765/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52433695 Duplicate</td><td>
+25</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52434435/out" target="_out">52434435</a>
+<a href="2018-08-17/52434435/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52434435/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52434435/.pass" target="_stmt">Password</a>
+</td><td>
+45</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52435025 Duplicate</td><td>
+25</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52435725/out" target="_out">52435725</a>
+<a href="2018-08-17/52435725/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52435725/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52436155 Duplicate</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52437445/out" target="_out">52437445</a>
+<a href="2018-08-17/52437445/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52437445/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52437445/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52439595/out" target="_out">52439595</a>
+<a href="2018-08-17/52439595/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52439595/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52442365/out" target="_out">52442365</a>
+<a href="2018-08-17/52442365/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442365/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52442845/out" target="_out">52442845</a>
+<a href="2018-08-17/52442845/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442845/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52443275/out" target="_out">52443275</a>
+<a href="2018-08-17/52443275/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52443275/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52445505 Duplicate</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52450315/out" target="_out">52450315</a>
+<a href="2018-08-17/52450315/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52450315/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52451155/out" target="_out">52451155</a>
+<a href="2018-08-17/52451155/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52451155/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52455025 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52457155/out" target="_out">52457155</a>
+<a href="2018-08-17/52457155/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457155/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52462035/out" target="_out">52462035</a>
+<a href="2018-08-17/52462035/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52462035/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52467265/out" target="_out">52467265</a>
+<a href="2018-08-17/52467265/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52467265/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+72</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52468495/out" target="_out">52468495</a>
+<a href="2018-08-17/52468495/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468495/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52468495/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52468535/out" target="_out">52468535</a>
+<a href="2018-08-17/52468535/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468535/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469125/out" target="_out">52469125</a>
+<a href="2018-08-17/52469125/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469125/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469345 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469935 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52471645 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52472815/out" target="_out">52472815</a>
+<a href="2018-08-17/52472815/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52472815/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52472815/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52478095 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52280166/out" target="_out">52280166</a>
+<a href="2018-08-17/52280166/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52280166/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52360956/out" target="_out">52360956</a>
+<a href="2018-08-17/52360956/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52360956/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52360956/.pass" target="_stmt">Password</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52361226/out" target="_out">52361226</a>
+<a href="2018-08-17/52361226/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52361226/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52374256/out" target="_out">52374256</a>
+<a href="2018-08-17/52374256/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52374256/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52374256/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52376656/out" target="_out">52376656</a>
+<a href="2018-08-17/52376656/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52376656/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52376806/out" target="_out">52376806</a>
+<a href="2018-08-17/52376806/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52376806/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52376876/out" target="_out">52376876</a>
+<a href="2018-08-17/52376876/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52376876/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52376876/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52382736/out" target="_out">52382736</a>
+<a href="2018-08-17/52382736/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52382736/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52385616/out" target="_out">52385616</a>
+<a href="2018-08-17/52385616/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52385616/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+42</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52386406/out" target="_out">52386406</a>
+<a href="2018-08-17/52386406/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52386406/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-08-17/52387846/out" target="_out">52387846</a>
+<a href="2018-08-17/52387846/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52387846/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52389746/out" target="_out">52389746</a>
+<a href="2018-08-17/52389746/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52389746/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52389746/.pass" target="_stmt">Password</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52389966/out" target="_out">52389966</a>
+<a href="2018-08-17/52389966/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52389966/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52390406/out" target="_out">52390406</a>
+<a href="2018-08-17/52390406/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390406/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52390526/out" target="_out">52390526</a>
+<a href="2018-08-17/52390526/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390526/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52395576/out" target="_out">52395576</a>
+<a href="2018-08-17/52395576/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52395576/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52395896/out" target="_out">52395896</a>
+<a href="2018-08-17/52395896/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52395896/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+41</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52396936/out" target="_out">52396936</a>
+<a href="2018-08-17/52396936/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52396936/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399916/out" target="_out">52399916</a>
+<a href="2018-08-17/52399916/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399916/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52401296/out" target="_out">52401296</a>
+<a href="2018-08-17/52401296/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401296/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52401776/out" target="_out">52401776</a>
+<a href="2018-08-17/52401776/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401776/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52403356 Duplicate</td><td>
+11</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52406626/out" target="_out">52406626</a>
+<a href="2018-08-17/52406626/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52406626/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52406626/.pass" target="_stmt">Password</a>
+</td><td>
+17</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52413236/out" target="_out">52413236</a>
+<a href="2018-08-17/52413236/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52413236/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+46</td><td>
+Unimplemented</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52416706/out" target="_out">52416706</a>
+<a href="2018-08-17/52416706/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52416706/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52419996/out" target="_out">52419996</a>
+<a href="2018-08-17/52419996/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52419996/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52419996/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52420206 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52420216 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52421346/out" target="_out">52421346</a>
+<a href="2018-08-17/52421346/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52421346/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52421496 Duplicate</td><td>
+41</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52426886 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52427896 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-08-17/52434516/out" target="_out">52434516</a>
+<a href="2018-08-17/52434516/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52434516/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52436286 Duplicate</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52441396/out" target="_out">52441396</a>
+<a href="2018-08-17/52441396/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52441396/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52442076/out" target="_out">52442076</a>
+<a href="2018-08-17/52442076/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442076/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52442806 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52444476/out" target="_out">52444476</a>
+<a href="2018-08-17/52444476/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52444476/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52456596/out" target="_out">52456596</a>
+<a href="2018-08-17/52456596/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52456596/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52456596/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52459156/out" target="_out">52459156</a>
+<a href="2018-08-17/52459156/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52459156/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+302</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-08-17/52459426/out" target="_out">52459426</a>
+<a href="2018-08-17/52459426/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52459426/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52459426/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52459516/out" target="_out">52459516</a>
+<a href="2018-08-17/52459516/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52459516/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52459516/.pass" target="_stmt">Password</a>
+</td><td>
+30</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52460156/out" target="_out">52460156</a>
+<a href="2018-08-17/52460156/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52460156/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52463006/out" target="_out">52463006</a>
+<a href="2018-08-17/52463006/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52463006/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52464396 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52466106 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52466626/out" target="_out">52466626</a>
+<a href="2018-08-17/52466626/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52466626/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469006/out" target="_out">52469006</a>
+<a href="2018-08-17/52469006/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469006/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52469346 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469996/out" target="_out">52469996</a>
+<a href="2018-08-17/52469996/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469996/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+46</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52471646 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52471776 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52475976/out" target="_out">52475976</a>
+<a href="2018-08-17/52475976/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52475976/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52475976/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-08-17/52476446/out" target="_out">52476446</a>
+<a href="2018-08-17/52476446/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52476446/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52476446/.pass" target="_stmt">Password</a>
+</td><td>
+19</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52476706 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52477156 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52361137/out" target="_out">52361137</a>
+<a href="2018-08-17/52361137/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52361137/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52361247/out" target="_out">52361247</a>
+<a href="2018-08-17/52361247/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52361247/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52361617/out" target="_out">52361617</a>
+<a href="2018-08-17/52361617/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52361617/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td>52361887 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52361897 Duplicate</td><td>
+46</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52362067 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52362107 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52362117 Duplicate</td><td>
+32</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52362357/out" target="_out">52362357</a>
+<a href="2018-08-17/52362357/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52362357/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52362357/.pass" target="_stmt">Password</a>
+</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52370387/out" target="_out">52370387</a>
+<a href="2018-08-17/52370387/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52370387/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52370387/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52377727/out" target="_out">52377727</a>
+<a href="2018-08-17/52377727/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52377727/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+26</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52382327 Duplicate</td><td>
+21</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52383657/out" target="_out">52383657</a>
+<a href="2018-08-17/52383657/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52383657/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52384257/out" target="_out">52384257</a>
+<a href="2018-08-17/52384257/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52384257/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52385087 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52386577 Duplicate</td><td>
+28</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52388157 Duplicate</td><td>
+81</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52388437/out" target="_out">52388437</a>
+<a href="2018-08-17/52388437/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52388437/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52388497 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52390427/out" target="_out">52390427</a>
+<a href="2018-08-17/52390427/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390427/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52393377/out" target="_out">52393377</a>
+<a href="2018-08-17/52393377/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52393377/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52393377/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52394727/out" target="_out">52394727</a>
+<a href="2018-08-17/52394727/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52394727/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52394737 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52395577 Duplicate</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52396287/out" target="_out">52396287</a>
+<a href="2018-08-17/52396287/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52396287/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52396417/out" target="_out">52396417</a>
+<a href="2018-08-17/52396417/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52396417/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+19</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52400407/out" target="_out">52400407</a>
+<a href="2018-08-17/52400407/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52400407/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+251</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>52400807 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52401187/out" target="_out">52401187</a>
+<a href="2018-08-17/52401187/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401187/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52401447/out" target="_out">52401447</a>
+<a href="2018-08-17/52401447/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401447/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52404247 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52405257/out" target="_out">52405257</a>
+<a href="2018-08-17/52405257/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52405257/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52405257/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52405547/out" target="_out">52405547</a>
+<a href="2018-08-17/52405547/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52405547/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52407397/out" target="_out">52407397</a>
+<a href="2018-08-17/52407397/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52407397/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52409367/out" target="_out">52409367</a>
+<a href="2018-08-17/52409367/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52409367/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+151</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52410737/out" target="_out">52410737</a>
+<a href="2018-08-17/52410737/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52410737/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52410737/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52411257/out" target="_out">52411257</a>
+<a href="2018-08-17/52411257/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52411257/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+17</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52413187/out" target="_out">52413187</a>
+<a href="2018-08-17/52413187/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52413187/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52413187/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52414227 Duplicate</td><td>
+46</td><td>
+Unimplemented</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52415587 Duplicate</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52417577 Duplicate</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52420197/out" target="_out">52420197</a>
+<a href="2018-08-17/52420197/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52420197/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52420197/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52423207/out" target="_out">52423207</a>
+<a href="2018-08-17/52423207/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52423207/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52429187/out" target="_out">52429187</a>
+<a href="2018-08-17/52429187/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52429187/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52430097/out" target="_out">52430097</a>
+<a href="2018-08-17/52430097/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52430097/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52430097/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52433167 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52433447/out" target="_out">52433447</a>
+<a href="2018-08-17/52433447/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52433447/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52435687/out" target="_out">52435687</a>
+<a href="2018-08-17/52435687/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52435687/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52437117/out" target="_out">52437117</a>
+<a href="2018-08-17/52437117/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52437117/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52437117/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52438357/out" target="_out">52438357</a>
+<a href="2018-08-17/52438357/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52438357/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+30</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52439267 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52440817/out" target="_out">52440817</a>
+<a href="2018-08-17/52440817/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52440817/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+11</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52442017/out" target="_out">52442017</a>
+<a href="2018-08-17/52442017/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442017/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52442367 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52446877/out" target="_out">52446877</a>
+<a href="2018-08-17/52446877/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52446877/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52446877/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52449437/out" target="_out">52449437</a>
+<a href="2018-08-17/52449437/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52449437/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52449467 Duplicate</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52450657 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52451617/out" target="_out">52451617</a>
+<a href="2018-08-17/52451617/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52451617/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52451627/out" target="_out">52451627</a>
+<a href="2018-08-17/52451627/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52451627/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52457167 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52463377 Duplicate</td><td>
+49</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52467737/out" target="_out">52467737</a>
+<a href="2018-08-17/52467737/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52467737/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52467737/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52468027/out" target="_out">52468027</a>
+<a href="2018-08-17/52468027/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468027/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52468027/.pass" target="_stmt">Password</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52468647 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52468797/out" target="_out">52468797</a>
+<a href="2018-08-17/52468797/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468797/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469127/out" target="_out">52469127</a>
+<a href="2018-08-17/52469127/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469127/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469347 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469847/out" target="_out">52469847</a>
+<a href="2018-08-17/52469847/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469847/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52470737/out" target="_out">52470737</a>
+<a href="2018-08-17/52470737/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52470737/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52470957 Duplicate</td><td>
+46</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52471647 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52472817 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52473247/out" target="_out">52473247</a>
+<a href="2018-08-17/52473247/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52473247/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52475017/out" target="_out">52475017</a>
+<a href="2018-08-17/52475017/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52475017/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52475017/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52476957/out" target="_out">52476957</a>
+<a href="2018-08-17/52476957/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52476957/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+27</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52477477 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52477557/out" target="_out">52477557</a>
+<a href="2018-08-17/52477557/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52477557/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52477557/.pass" target="_stmt">Password</a>
+</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52361758 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52361988 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52362318/out" target="_out">52362318</a>
+<a href="2018-08-17/52362318/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52362318/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52371818/out" target="_out">52371818</a>
+<a href="2018-08-17/52371818/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52376348/out" target="_out">52376348</a>
+<a href="2018-08-17/52376348/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52376348/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52377028 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52378058/out" target="_out">52378058</a>
+<a href="2018-08-17/52378058/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52378058/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52378058/.pass" target="_stmt">Password</a>
+</td><td>
+42</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52378298/out" target="_out">52378298</a>
+<a href="2018-08-17/52378298/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52378298/.pass" target="_stmt">Password</a>
+</td><td>
+17</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52379798/out" target="_out">52379798</a>
+<a href="2018-08-17/52379798/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52379798/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52379798/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52381598/out" target="_out">52381598</a>
+<a href="2018-08-17/52381598/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52381598/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+21</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52382538 Duplicate</td><td>
+21</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52385068/out" target="_out">52385068</a>
+<a href="2018-08-17/52385068/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52385068/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52388708/out" target="_out">52388708</a>
+<a href="2018-08-17/52388708/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52388708/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52388708/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52390058/out" target="_out">52390058</a>
+<a href="2018-08-17/52390058/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390058/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52390358 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-06-01] dateGap [654] for xn [2020-06-01,\N,18 B/F... 227.86IMPS CR-1763308000000128,0.00,2376.00]</td>
+</tr>
+<tr><td><a href="2018-08-17/52392798/out" target="_out">52392798</a>
+<a href="2018-08-17/52392798/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52392798/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52394448/out" target="_out">52394448</a>
+<a href="2018-08-17/52394448/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52394448/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52394448/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52395578/out" target="_out">52395578</a>
+<a href="2018-08-17/52395578/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52395578/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52397228/out" target="_out">52397228</a>
+<a href="2018-08-17/52397228/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52397228/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52399098 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52402258/out" target="_out">52402258</a>
+<a href="2018-08-17/52402258/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52402258/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52402258/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52403358/out" target="_out">52403358</a>
+<a href="2018-08-17/52403358/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52403358/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52406558/out" target="_out">52406558</a>
+<a href="2018-08-17/52406558/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52406558/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52406568 Duplicate</td><td>
+23</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52407118/out" target="_out">52407118</a>
+<a href="2018-08-17/52407118/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52407118/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52408118/out" target="_out">52408118</a>
+<a href="2018-08-17/52408118/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52408118/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52409848/out" target="_out">52409848</a>
+<a href="2018-08-17/52409848/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52409848/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52409848/.pass" target="_stmt">Password</a>
+</td><td>
+45</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn -00-29,\N,HOTEL SADANAND GOREGAON,2560,23449.77</td>
+</tr>
+<tr><td><a href="2018-08-17/52411258/out" target="_out">52411258</a>
+<a href="2018-08-17/52411258/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52411258/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+17</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52414678 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52414758 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52416448 Duplicate</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-08-17/52418188/out" target="_out">52418188</a>
+<a href="2018-08-17/52418188/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418188/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52418868 Duplicate</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52420548/out" target="_out">52420548</a>
+<a href="2018-08-17/52420548/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52420548/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52420568/out" target="_out">52420568</a>
+<a href="2018-08-17/52420568/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52420568/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52421168/out" target="_out">52421168</a>
+<a href="2018-08-17/52421168/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52421168/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52421168/.pass" target="_stmt">Password</a>
+</td><td>
+41</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52424608/out" target="_out">52424608</a>
+<a href="2018-08-17/52424608/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52424608/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52426738 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-06-28] currXnDate[2018-03-31] nextXnDate[]</td>
+</tr>
+<tr><td><a href="2018-08-17/52430228/out" target="_out">52430228</a>
+<a href="2018-08-17/52430228/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52430228/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52430228/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52433878/out" target="_out">52433878</a>
+<a href="2018-08-17/52433878/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52433878/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52434118 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52436288/out" target="_out">52436288</a>
+<a href="2018-08-17/52436288/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52436288/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52437388 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52439098 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52441978/out" target="_out">52441978</a>
+<a href="2018-08-17/52441978/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52441978/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52442068/out" target="_out">52442068</a>
+<a href="2018-08-17/52442068/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442068/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52442068/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52442348/out" target="_out">52442348</a>
+<a href="2018-08-17/52442348/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442348/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52442878/out" target="_out">52442878</a>
+<a href="2018-08-17/52442878/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442878/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52442878/.pass" target="_stmt">Password</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-08-17/52443728/out" target="_out">52443728</a>
+<a href="2018-08-17/52443728/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52443728/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+77</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-08-17/52447628/out" target="_out">52447628</a>
+<a href="2018-08-17/52447628/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52447628/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52447708/out" target="_out">52447708</a>
+<a href="2018-08-17/52447708/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52447708/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52456978/out" target="_out">52456978</a>
+<a href="2018-08-17/52456978/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52456978/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52457488/out" target="_out">52457488</a>
+<a href="2018-08-17/52457488/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457488/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52459008/out" target="_out">52459008</a>
+<a href="2018-08-17/52459008/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52459008/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52461738 Duplicate</td><td>
+11</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52462078/out" target="_out">52462078</a>
+<a href="2018-08-17/52462078/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52462078/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52462098 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52467118/out" target="_out">52467118</a>
+<a href="2018-08-17/52467118/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52467118/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+17</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52468528/out" target="_out">52468528</a>
+<a href="2018-08-17/52468528/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52468528/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52468528/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469128/out" target="_out">52469128</a>
+<a href="2018-08-17/52469128/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469128/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469348 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469918 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52472628/out" target="_out">52472628</a>
+<a href="2018-08-17/52472628/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52472628/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52472628/.pass" target="_stmt">Password</a>
+</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52473288 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52474678/out" target="_out">52474678</a>
+<a href="2018-08-17/52474678/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52474678/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52477208 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52477548/out" target="_out">52477548</a>
+<a href="2018-08-17/52477548/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52477548/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52477548/.pass" target="_stmt">Password</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/51977139/out" target="_out">51977139</a>
+<a href="2018-08-17/51977139/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/51977139/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52360239/out" target="_out">52360239</a>
+<a href="2018-08-17/52360239/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52360239/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52360239/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52360629/out" target="_out">52360629</a>
+<a href="2018-08-17/52360629/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52360629/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52361279/out" target="_out">52361279</a>
+<a href="2018-08-17/52361279/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52361879/out" target="_out">52361879</a>
+<a href="2018-08-17/52361879/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52361879/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52370269/out" target="_out">52370269</a>
+<a href="2018-08-17/52370269/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52370269/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52373279/out" target="_out">52373279</a>
+<a href="2018-08-17/52373279/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52373279/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52374099/out" target="_out">52374099</a>
+<a href="2018-08-17/52374099/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52374099/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52374099/.pass" target="_stmt">Password</a>
+</td><td>
+51</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52376809/out" target="_out">52376809</a>
+<a href="2018-08-17/52376809/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52376809/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52377089/out" target="_out">52377089</a>
+<a href="2018-08-17/52377089/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52377089/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52377089/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-06-28] currXnDate[2018-03-31] nextXnDate[]</td>
+</tr>
+<tr><td>52386669 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52387269/out" target="_out">52387269</a>
+<a href="2018-08-17/52387269/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52387269/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52387269/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52387279/out" target="_out">52387279</a>
+<a href="2018-08-17/52387279/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52387279/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52387279/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52388059/out" target="_out">52388059</a>
+<a href="2018-08-17/52388059/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52388059/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52388179 Duplicate</td><td>
+81</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52388559 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52390399/out" target="_out">52390399</a>
+<a href="2018-08-17/52390399/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52390399/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52392789/out" target="_out">52392789</a>
+<a href="2018-08-17/52392789/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52392789/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52396809/out" target="_out">52396809</a>
+<a href="2018-08-17/52396809/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52396809/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52398739/out" target="_out">52398739</a>
+<a href="2018-08-17/52398739/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52398739/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399919/out" target="_out">52399919</a>
+<a href="2018-08-17/52399919/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399919/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52399929/out" target="_out">52399929</a>
+<a href="2018-08-17/52399929/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52399929/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52400849 Duplicate</td><td>
+224</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No data found</td>
+</tr>
+<tr><td><a href="2018-08-17/52401599/out" target="_out">52401599</a>
+<a href="2018-08-17/52401599/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401599/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52401899/out" target="_out">52401899</a>
+<a href="2018-08-17/52401899/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52401899/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52402349 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52402409/out" target="_out">52402409</a>
+<a href="2018-08-17/52402409/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52402409/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52403239/out" target="_out">52403239</a>
+<a href="2018-08-17/52403239/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52403239/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52403239/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-08-17/52406099/out" target="_out">52406099</a>
+<a href="2018-08-17/52406099/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52406099/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52411799 Duplicate</td><td>
+28</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52415439 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52417239/out" target="_out">52417239</a>
+<a href="2018-08-17/52417239/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52417239/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52417869/out" target="_out">52417869</a>
+<a href="2018-08-17/52417869/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52417869/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52417869/.pass" target="_stmt">Password</a>
+</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52418609 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52418979/out" target="_out">52418979</a>
+<a href="2018-08-17/52418979/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52418979/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52419949/out" target="_out">52419949</a>
+<a href="2018-08-17/52419949/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52419949/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+17</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52420079 Duplicate</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52420599/out" target="_out">52420599</a>
+<a href="2018-08-17/52420599/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52420599/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52423329/out" target="_out">52423329</a>
+<a href="2018-08-17/52423329/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52423329/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-08-17/52427869/out" target="_out">52427869</a>
+<a href="2018-08-17/52427869/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52427869/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52427869/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-08-17/52433089/out" target="_out">52433089</a>
+<a href="2018-08-17/52433089/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52433089/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52433089/.pass" target="_stmt">Password</a>
+</td><td>
+30</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52433679/out" target="_out">52433679</a>
+<a href="2018-08-17/52433679/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52433679/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52433679/.pass" target="_stmt">Password</a>
+</td><td>
+45</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52433899/out" target="_out">52433899</a>
+<a href="2018-08-17/52433899/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52433899/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52436809 Duplicate</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52437909/out" target="_out">52437909</a>
+<a href="2018-08-17/52437909/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52437909/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52437909/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52438889/out" target="_out">52438889</a>
+<a href="2018-08-17/52438889/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52438889/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52438889/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52440879/out" target="_out">52440879</a>
+<a href="2018-08-17/52440879/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52440879/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52442089/out" target="_out">52442089</a>
+<a href="2018-08-17/52442089/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442089/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52442319/out" target="_out">52442319</a>
+<a href="2018-08-17/52442319/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52442319/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52449369/out" target="_out">52449369</a>
+<a href="2018-08-17/52449369/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52449369/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52451509 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52452569/out" target="_out">52452569</a>
+<a href="2018-08-17/52452569/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52452569/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+46</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52452699/out" target="_out">52452699</a>
+<a href="2018-08-17/52452699/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52452699/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52452969 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52455339/out" target="_out">52455339</a>
+<a href="2018-08-17/52455339/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52455339/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+49</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52455909/out" target="_out">52455909</a>
+<a href="2018-08-17/52455909/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52455909/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52455989 Duplicate</td><td>
+50</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-05-01] dateGap [623] for xn [2020-05-01,\N,18 B/F... 0.00Cls out wdrl Funds Xfer From,0.00,227.86]</td>
+</tr>
+<tr><td><a href="2018-08-17/52456319/out" target="_out">52456319</a>
+<a href="2018-08-17/52456319/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52456319/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52457449/out" target="_out">52457449</a>
+<a href="2018-08-17/52457449/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52457449/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52458389 Duplicate</td><td>
+45</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52459999 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52461849 Duplicate</td><td>
+11</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52462939/out" target="_out">52462939</a>
+<a href="2018-08-17/52462939/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52462939/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+49</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52463329 Duplicate</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52463589/out" target="_out">52463589</a>
+<a href="2018-08-17/52463589/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52463589/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52464239 Duplicate</td><td>
+27</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52465249 Duplicate</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52465649/out" target="_out">52465649</a>
+<a href="2018-08-17/52465649/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52465649/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52467119/out" target="_out">52467119</a>
+<a href="2018-08-17/52467119/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52467119/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>52467769 Duplicate</td><td>
+72</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52469029/out" target="_out">52469029</a>
+<a href="2018-08-17/52469029/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469029/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469119/out" target="_out">52469119</a>
+<a href="2018-08-17/52469119/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469119/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52469349 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52469839/out" target="_out">52469839</a>
+<a href="2018-08-17/52469839/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52469839/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52469929 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>52471639 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52472119/out" target="_out">52472119</a>
+<a href="2018-08-17/52472119/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52472119/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>52472819 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52475259/out" target="_out">52475259</a>
+<a href="2018-08-17/52475259/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52475259/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-08-17/52475259/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52475889/out" target="_out">52475889</a>
+<a href="2018-08-17/52475889/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52475889/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-08-17/52475919/out" target="_out">52475919</a>
+<a href="2018-08-17/52475919/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52475919/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-08-17/52476389/out" target="_out">52476389</a>
+<a href="2018-08-17/52476389/firstpage.jpg" target="_image">Image</a>
+<a href="2018-08-17/52476389/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+</table>
+</body></html>

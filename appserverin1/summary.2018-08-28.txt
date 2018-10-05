@@ -1,0 +1,35 @@
+Statement Parser 2 Failure Analysis [host = appserverin1, date = 2018-08-28]
+Summary
+Total Attempts - 853
+SP2 failure - 27 times
+When SP2 failed - SP1 succeeded 0 times, failed 27 times, unknown status (timed out?) 0 times
+Nature of SP2 failure - Total: 27, Unidentified: 15, Unimplemented: 0, Parser Failure: 12, Itemizer Failure: 0, Tabula Failure: 0, Internal Error: 0, Others: 0
+Details
+Data dir & files	Declared inst_id	SP2 Failure	SP1 Result
+634440 Image Statement	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+634450 Duplicate	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+634560 Image Statement	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+635390 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+637240 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+637241 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+634902 Image Statement	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+634992 Duplicate	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+637242 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+634603 Image Statement	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+635403 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+637243 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+634474 Image Statement	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+637244 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+637245 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+634496 Duplicate	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+636026 Image Statement	24	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS No transactions found
+637236 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+637246 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+634487 Image Statement	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+637237 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+634478 Duplicate	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+635388 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+637238 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+634439 Image Statement	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+634839 Image Statement	196	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+637239 Image Statement	3	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []

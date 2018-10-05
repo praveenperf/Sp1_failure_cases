@@ -1,0 +1,3505 @@
+        <html><body>
+        <h2>Statement Parser 2 Failure Analysis [host = bheema, date = 2018-10-02]</h2>
+        <h3>Summary</h3><ul>
+        <li>Total Attempts - 5663</li>
+        <li>SP2 failure - 585 times</li>
+        <li>When SP2 failed - SP1 succeeded 116 times, failed 442 times, unknown status (timed out?) 27 times</li>
+        <li>Nature of SP2 failure - Total: 585, Unidentified: 494, Unimplemented: 0, Parser Failure: 90, Itemizer Failure: 0, Tabula Failure: 1, Internal Error: 0, Others: 0</li>
+        </ul>
+<h3>Details</h3><table border="1"><tr><th>Data dir &amp; files</th><th>Declared inst_id</th><th>SP2 Failure</th><th>SP1 Result</th></tr>
+<tr><td>58513170 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58514280/out" target="_out">58514280</a>
+<a href="2018-10-02/58514280/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514280/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58514280/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58514300/out" target="_out">58514300</a>
+<a href="2018-10-02/58514300/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514300/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58516040/out" target="_out">58516040</a>
+<a href="2018-10-02/58516040/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58516040/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58516110/out" target="_out">58516110</a>
+<a href="2018-10-02/58516110/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58516110/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58516110/.pass" target="_stmt">Password</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-10-02/58524550/out" target="_out">58524550</a>
+<a href="2018-10-02/58524550/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58524550/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58524550/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-10-02/58525460/out" target="_out">58525460</a>
+<a href="2018-10-02/58525460/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58525460/.pass" target="_stmt">Password</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58525960/out" target="_out">58525960</a>
+<a href="2018-10-02/58525960/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58525960/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58526460 Duplicate</td><td>
+50</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58526720/out" target="_out">58526720</a>
+<a href="2018-10-02/58526720/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58526720/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58526720/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58526950/out" target="_out">58526950</a>
+<a href="2018-10-02/58526950/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58526950/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58526950/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58529720/out" target="_out">58529720</a>
+<a href="2018-10-02/58529720/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58529720/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58529720/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58534840/out" target="_out">58534840</a>
+<a href="2018-10-02/58534840/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58534840/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58534840/.pass" target="_stmt">Password</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58535410/out" target="_out">58535410</a>
+<a href="2018-10-02/58535410/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58535410/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58535410/.pass" target="_stmt">Password</a>
+</td><td>
+52</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58535580/out" target="_out">58535580</a>
+<a href="2018-10-02/58535580/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58535580/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+31</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58536090/out" target="_out">58536090</a>
+<a href="2018-10-02/58536090/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58536090/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58545630/out" target="_out">58545630</a>
+<a href="2018-10-02/58545630/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58545630/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58545630/.pass" target="_stmt">Password</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58546400/out" target="_out">58546400</a>
+<a href="2018-10-02/58546400/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58546400/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58548360 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td>58550600 Duplicate</td><td>
+31</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58550660 Duplicate</td><td>
+31</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58552770 Duplicate</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58553810/out" target="_out">58553810</a>
+<a href="2018-10-02/58553810/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58553810/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58553810/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58554860 Duplicate</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58556630/out" target="_out">58556630</a>
+<a href="2018-10-02/58556630/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556630/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58556630/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58557280/out" target="_out">58557280</a>
+<a href="2018-10-02/58557280/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58557280/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58557280/.pass" target="_stmt">Password</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58562470/out" target="_out">58562470</a>
+<a href="2018-10-02/58562470/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562470/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58562470/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58565410/out" target="_out">58565410</a>
+<a href="2018-10-02/58565410/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565410/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58565460/out" target="_out">58565460</a>
+<a href="2018-10-02/58565460/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565460/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58565460/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58565760/out" target="_out">58565760</a>
+<a href="2018-10-02/58565760/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565760/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58565760/.pass" target="_stmt">Password</a>
+</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58572020 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58575810 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58576440/out" target="_out">58576440</a>
+<a href="2018-10-02/58576440/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58576440/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+156</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58579100 Duplicate</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58583270/out" target="_out">58583270</a>
+<a href="2018-10-02/58583270/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58583270/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58583680/out" target="_out">58583680</a>
+<a href="2018-10-02/58583680/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58583790/out" target="_out">58583790</a>
+<a href="2018-10-02/58583790/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58586950 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58587660/out" target="_out">58587660</a>
+<a href="2018-10-02/58587660/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58587660/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58587660/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58590580/out" target="_out">58590580</a>
+<a href="2018-10-02/58590580/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58590580/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58593140/out" target="_out">58593140</a>
+<a href="2018-10-02/58593140/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58593140/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58593260/out" target="_out">58593260</a>
+<a href="2018-10-02/58593260/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58593260/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58593260/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58593330 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58595100/out" target="_out">58595100</a>
+<a href="2018-10-02/58595100/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58595100/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58595730/out" target="_out">58595730</a>
+<a href="2018-10-02/58595730/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58595730/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58595730/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58596270/out" target="_out">58596270</a>
+<a href="2018-10-02/58596270/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58596270/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58596270/.pass" target="_stmt">Password</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58597190 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58597400 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58598190/out" target="_out">58598190</a>
+<a href="2018-10-02/58598190/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58598190/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+140</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58599870/out" target="_out">58599870</a>
+<a href="2018-10-02/58599870/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58599870/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58601180/out" target="_out">58601180</a>
+<a href="2018-10-02/58601180/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58601180/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58601180/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58602820 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58603370 Duplicate</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58603520 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58604320 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58604460 Duplicate</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58512901 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58513771/out" target="_out">58513771</a>
+<a href="2018-10-02/58513771/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58513771/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58514491/out" target="_out">58514491</a>
+<a href="2018-10-02/58514491/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514491/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58514491/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58534871/out" target="_out">58534871</a>
+<a href="2018-10-02/58534871/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58534871/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58534871/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58535061 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58538271 Duplicate</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58539421/out" target="_out">58539421</a>
+<a href="2018-10-02/58539421/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58539421/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58539791/out" target="_out">58539791</a>
+<a href="2018-10-02/58539791/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58539791/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58539791/.pass" target="_stmt">Password</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58542371/out" target="_out">58542371</a>
+<a href="2018-10-02/58542371/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58542371/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58542371/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58543291/out" target="_out">58543291</a>
+<a href="2018-10-02/58543291/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58543291/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58543291/.pass" target="_stmt">Password</a>
+</td><td>
+50</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58550221 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58550761/out" target="_out">58550761</a>
+<a href="2018-10-02/58550761/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58550761/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58556391/out" target="_out">58556391</a>
+<a href="2018-10-02/58556391/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556391/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58556681 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58556781/out" target="_out">58556781</a>
+<a href="2018-10-02/58556781/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556781/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58556781/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58559601/out" target="_out">58559601</a>
+<a href="2018-10-02/58559601/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58559601/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td>58560071 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58562531/out" target="_out">58562531</a>
+<a href="2018-10-02/58562531/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562531/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58562751 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58563201 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58563271 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58563351 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58571771/out" target="_out">58571771</a>
+<a href="2018-10-02/58571771/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58571771/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58573651/out" target="_out">58573651</a>
+<a href="2018-10-02/58573651/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573651/.pass" target="_stmt">Password</a>
+</td><td>
+148</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58578021 Duplicate</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58578721 Duplicate</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58581381 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58581801/out" target="_out">58581801</a>
+<a href="2018-10-02/58581801/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58581801/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58582091/out" target="_out">58582091</a>
+<a href="2018-10-02/58582091/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58582091/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58583651/out" target="_out">58583651</a>
+<a href="2018-10-02/58583651/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58583701/out" target="_out">58583701</a>
+<a href="2018-10-02/58583701/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58584081 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-08-00,\N,Q9.-08-Z018 UPIIP2M/822105213270/-- ZOO.OD 3151.37 540 l'OSISHAHED DESHDA1/NOIDA/0908 18/1.0:55,-233.46,2917.91</td>
+</tr>
+<tr><td><a href="2018-10-02/58584161/out" target="_out">58584161</a>
+<a href="2018-10-02/58584161/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58584161/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58584561 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-08-00,\N,Q9.-08-Z018 UPIIP2M/822105213270/-- ZOO.OD 3151.37 540 l'OSISHAHED DESHDA1/NOIDA/0908 18/1.0:55,-233.46,2917.91</td>
+</tr>
+<tr><td><a href="2018-10-02/58584951/out" target="_out">58584951</a>
+<a href="2018-10-02/58584951/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58584951/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58584951/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58585061 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58585251/out" target="_out">58585251</a>
+<a href="2018-10-02/58585251/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58586871 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58587011/out" target="_out">58587011</a>
+<a href="2018-10-02/58587011/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58587011/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+41</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58590011/out" target="_out">58590011</a>
+<a href="2018-10-02/58590011/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58590011/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58598391/out" target="_out">58598391</a>
+<a href="2018-10-02/58598391/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58598391/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58600061/out" target="_out">58600061</a>
+<a href="2018-10-02/58600061/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58600061/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58601751/out" target="_out">58601751</a>
+<a href="2018-10-02/58601751/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58601751/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58601751/.pass" target="_stmt">Password</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58601951/out" target="_out">58601951</a>
+<a href="2018-10-02/58601951/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58601951/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58602161 Duplicate</td><td>
+254</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58603161/out" target="_out">58603161</a>
+<a href="2018-10-02/58603161/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58603161/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58603161/.pass" target="_stmt">Password</a>
+</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58514592/out" target="_out">58514592</a>
+<a href="2018-10-02/58514592/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514592/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58526452/out" target="_out">58526452</a>
+<a href="2018-10-02/58526452/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58526452/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+50</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58537062/out" target="_out">58537062</a>
+<a href="2018-10-02/58537062/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58537062/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58537062/.pass" target="_stmt">Password</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58537222/out" target="_out">58537222</a>
+<a href="2018-10-02/58537222/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58537222/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-10-02/58541912/out" target="_out">58541912</a>
+<a href="2018-10-02/58541912/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58541912/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58541912/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58550182/out" target="_out">58550182</a>
+<a href="2018-10-02/58550182/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58550182/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58550382/out" target="_out">58550382</a>
+<a href="2018-10-02/58550382/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58550382/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58550622 Duplicate</td><td>
+31</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58551552/out" target="_out">58551552</a>
+<a href="2018-10-02/58551552/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58551552/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58551552/.pass" target="_stmt">Password</a>
+</td><td>
+52</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58553012/out" target="_out">58553012</a>
+<a href="2018-10-02/58553012/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58553012/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58553012/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58553182 Duplicate</td><td>
+42</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58554672/out" target="_out">58554672</a>
+<a href="2018-10-02/58554672/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58554672/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58554672/.pass" target="_stmt">Password</a>
+</td><td>
+52</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58554722/out" target="_out">58554722</a>
+<a href="2018-10-02/58554722/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58554722/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58554722/.pass" target="_stmt">Password</a>
+</td><td>
+104</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58560152/out" target="_out">58560152</a>
+<a href="2018-10-02/58560152/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58560152/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58560152/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58561102/out" target="_out">58561102</a>
+<a href="2018-10-02/58561102/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58561102/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+302</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58561902/out" target="_out">58561902</a>
+<a href="2018-10-02/58561902/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58561902/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58562322/out" target="_out">58562322</a>
+<a href="2018-10-02/58562322/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562322/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58562712 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58562922/out" target="_out">58562922</a>
+<a href="2018-10-02/58562922/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562922/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58562922/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58564422/out" target="_out">58564422</a>
+<a href="2018-10-02/58564422/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58564422/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564562 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564742 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58568732/out" target="_out">58568732</a>
+<a href="2018-10-02/58568732/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58568732/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58569412/out" target="_out">58569412</a>
+<a href="2018-10-02/58569412/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58569412/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58572352/out" target="_out">58572352</a>
+<a href="2018-10-02/58572352/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58572352/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58572382 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58573512/out" target="_out">58573512</a>
+<a href="2018-10-02/58573512/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58573512/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573512/.pass" target="_stmt">Password</a>
+</td><td>
+148</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58573602/out" target="_out">58573602</a>
+<a href="2018-10-02/58573602/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573602/.pass" target="_stmt">Password</a>
+</td><td>
+148</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58573822 Duplicate</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-10-02/58575622/out" target="_out">58575622</a>
+<a href="2018-10-02/58575622/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58575622/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58575622/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58575972 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58576222/out" target="_out">58576222</a>
+<a href="2018-10-02/58576222/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58576222/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58576222/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58578372 Duplicate</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58580292/out" target="_out">58580292</a>
+<a href="2018-10-02/58580292/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58580292/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58581112/out" target="_out">58581112</a>
+<a href="2018-10-02/58581112/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58581112/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58583742/out" target="_out">58583742</a>
+<a href="2018-10-02/58583742/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58588302 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58589742/out" target="_out">58589742</a>
+<a href="2018-10-02/58589742/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58589742/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58592722 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58595642/out" target="_out">58595642</a>
+<a href="2018-10-02/58595642/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58595642/.pass" target="_stmt">Password</a>
+</td><td>
+95</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58597362/out" target="_out">58597362</a>
+<a href="2018-10-02/58597362/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58597362/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58597362/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58600622/out" target="_out">58600622</a>
+<a href="2018-10-02/58600622/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58600622/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58600622/.pass" target="_stmt">Password</a>
+</td><td>
+44</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58601172/out" target="_out">58601172</a>
+<a href="2018-10-02/58601172/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58601172/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58601502/out" target="_out">58601502</a>
+<a href="2018-10-02/58601502/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58601502/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58601502/.pass" target="_stmt">Password</a>
+</td><td>
+52</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58603202 Duplicate</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58603552 Duplicate</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58604342 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58605372/out" target="_out">58605372</a>
+<a href="2018-10-02/58605372/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58605372/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58605372/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58513163/out" target="_out">58513163</a>
+<a href="2018-10-02/58513163/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58513163/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58513243/out" target="_out">58513243</a>
+<a href="2018-10-02/58513243/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58513243/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58514433 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58514583/out" target="_out">58514583</a>
+<a href="2018-10-02/58514583/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514583/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58514853 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58525163/out" target="_out">58525163</a>
+<a href="2018-10-02/58525163/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58525163/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-05-15,\N,TO TRANSFER INB UA63240354MOA XXXX608KVBL TRANSFER TO 459,14049,.004976.58</td>
+</tr>
+<tr><td><a href="2018-10-02/58525463/out" target="_out">58525463</a>
+<a href="2018-10-02/58525463/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58525463/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58525463/.pass" target="_stmt">Password</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58525473 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58525493 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58526443/out" target="_out">58526443</a>
+<a href="2018-10-02/58526443/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58526443/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58526443/.pass" target="_stmt">Password</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58528993 Duplicate</td><td>
+50</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58535423 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58539053/out" target="_out">58539053</a>
+<a href="2018-10-02/58539053/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58539053/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58539053/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58541933/out" target="_out">58541933</a>
+<a href="2018-10-02/58541933/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58541933/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58541983/out" target="_out">58541983</a>
+<a href="2018-10-02/58541983/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58541983/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58542243/out" target="_out">58542243</a>
+<a href="2018-10-02/58542243/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58542243/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58542243/.pass" target="_stmt">Password</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58545813/out" target="_out">58545813</a>
+<a href="2018-10-02/58545813/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58545813/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58545813/.pass" target="_stmt">Password</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58548513/out" target="_out">58548513</a>
+<a href="2018-10-02/58548513/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58548513/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58549713/out" target="_out">58549713</a>
+<a href="2018-10-02/58549713/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58549713/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58550633/out" target="_out">58550633</a>
+<a href="2018-10-02/58550633/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58550633/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58550633/.pass" target="_stmt">Password</a>
+</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58550723/out" target="_out">58550723</a>
+<a href="2018-10-02/58550723/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58550723/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58552853 Duplicate</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58554283 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58554503/out" target="_out">58554503</a>
+<a href="2018-10-02/58554503/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58555483 Duplicate</td><td>
+104</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58555833/out" target="_out">58555833</a>
+<a href="2018-10-02/58555833/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58555833/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58555833/.pass" target="_stmt">Password</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58557793/out" target="_out">58557793</a>
+<a href="2018-10-02/58557793/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58557793/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58557793/.pass" target="_stmt">Password</a>
+</td><td>
+77</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-10-02/58557873/out" target="_out">58557873</a>
+<a href="2018-10-02/58557873/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58557873/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58559853 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58562303 Duplicate</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58562703/out" target="_out">58562703</a>
+<a href="2018-10-02/58562703/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562703/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58562783 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58563043/out" target="_out">58563043</a>
+<a href="2018-10-02/58563043/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58563043/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58563043/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58563343 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58564533 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564543 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564553 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564573 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564773 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58565603/out" target="_out">58565603</a>
+<a href="2018-10-02/58565603/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565603/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58568553/out" target="_out">58568553</a>
+<a href="2018-10-02/58568553/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58568553/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58568553/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58568923/out" target="_out">58568923</a>
+<a href="2018-10-02/58568923/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58568923/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58569693/out" target="_out">58569693</a>
+<a href="2018-10-02/58569693/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58569693/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58571103/out" target="_out">58571103</a>
+<a href="2018-10-02/58571103/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58571103/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58571103/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58572373/out" target="_out">58572373</a>
+<a href="2018-10-02/58572373/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58572373/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58573533/out" target="_out">58573533</a>
+<a href="2018-10-02/58573533/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573533/.pass" target="_stmt">Password</a>
+</td><td>
+148</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58573563/out" target="_out">58573563</a>
+<a href="2018-10-02/58573563/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573563/.pass" target="_stmt">Password</a>
+</td><td>
+148</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58574253/out" target="_out">58574253</a>
+<a href="2018-10-02/58574253/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58574253/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58578253/out" target="_out">58578253</a>
+<a href="2018-10-02/58578253/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58578253/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58578823 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58581393 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58581573/out" target="_out">58581573</a>
+<a href="2018-10-02/58581573/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58581573/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58581803/out" target="_out">58581803</a>
+<a href="2018-10-02/58581803/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58581803/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58581803/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58581963/out" target="_out">58581963</a>
+<a href="2018-10-02/58581963/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58581963/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58581963/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58582123 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582273 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582293 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58582883/out" target="_out">58582883</a>
+<a href="2018-10-02/58582883/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58582883/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58583763/out" target="_out">58583763</a>
+<a href="2018-10-02/58583763/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58583823/out" target="_out">58583823</a>
+<a href="2018-10-02/58583823/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58584493 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58584653/out" target="_out">58584653</a>
+<a href="2018-10-02/58584653/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58584653/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58585093 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58586233/out" target="_out">58586233</a>
+<a href="2018-10-02/58586233/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58586233/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58589273 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58595953 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58596313 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58600043/out" target="_out">58600043</a>
+<a href="2018-10-02/58600043/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58600043/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58600483 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58601323/out" target="_out">58601323</a>
+<a href="2018-10-02/58601323/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58601323/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58602633/out" target="_out">58602633</a>
+<a href="2018-10-02/58602633/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58602633/.pass" target="_stmt">Password</a>
+</td><td>
+42</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58604263 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58512894/out" target="_out">58512894</a>
+<a href="2018-10-02/58512894/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58512894/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58514344/out" target="_out">58514344</a>
+<a href="2018-10-02/58514344/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514344/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58514344/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58514844 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58515754/out" target="_out">58515754</a>
+<a href="2018-10-02/58515754/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58515754/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+15</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58516514/out" target="_out">58516514</a>
+<a href="2018-10-02/58516514/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58516514/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58516604/out" target="_out">58516604</a>
+<a href="2018-10-02/58516604/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58516604/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58525384/out" target="_out">58525384</a>
+<a href="2018-10-02/58525384/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58525384/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58525384/.pass" target="_stmt">Password</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58525484 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58525554 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58525624 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58527594/out" target="_out">58527594</a>
+<a href="2018-10-02/58527594/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58527594/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58529484/out" target="_out">58529484</a>
+<a href="2018-10-02/58529484/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58529484/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58535414/out" target="_out">58535414</a>
+<a href="2018-10-02/58535414/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58535414/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58537264/out" target="_out">58537264</a>
+<a href="2018-10-02/58537264/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58537264/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58537264/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58537424 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58538694/out" target="_out">58538694</a>
+<a href="2018-10-02/58538694/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58538694/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+178</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.</td>
+</tr>
+<tr><td><a href="2018-10-02/58540134/out" target="_out">58540134</a>
+<a href="2018-10-02/58540134/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58540134/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58541784/out" target="_out">58541784</a>
+<a href="2018-10-02/58541784/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58541784/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58541784/.pass" target="_stmt">Password</a>
+</td><td>
+19</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58542504/out" target="_out">58542504</a>
+<a href="2018-10-02/58542504/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58542504/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58542504/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58543614/out" target="_out">58543614</a>
+<a href="2018-10-02/58543614/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58543614/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58543614/.pass" target="_stmt">Password</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58546954/out" target="_out">58546954</a>
+<a href="2018-10-02/58546954/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58546954/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+156</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58548294 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-10-02/58548524/out" target="_out">58548524</a>
+<a href="2018-10-02/58548524/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58548524/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58548524/.pass" target="_stmt">Password</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58548544/out" target="_out">58548544</a>
+<a href="2018-10-02/58548544/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58548544/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.</td>
+</tr>
+<tr><td><a href="2018-10-02/58549694/out" target="_out">58549694</a>
+<a href="2018-10-02/58549694/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58549694/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 0-00-202369,\N,MS Office Home and Student 2016 Win 5F/6F,-1,6799.00</td>
+</tr>
+<tr><td><a href="2018-10-02/58550724/out" target="_out">58550724</a>
+<a href="2018-10-02/58550724/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58550724/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58550724/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58552784/out" target="_out">58552784</a>
+<a href="2018-10-02/58552784/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58552784/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58552784/.pass" target="_stmt">Password</a>
+</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58553304/out" target="_out">58553304</a>
+<a href="2018-10-02/58553304/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58553304/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58553304/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-10-02/58553874/out" target="_out">58553874</a>
+<a href="2018-10-02/58553874/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58553874/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+12</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58555194/out" target="_out">58555194</a>
+<a href="2018-10-02/58555194/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58555194/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58555924/out" target="_out">58555924</a>
+<a href="2018-10-02/58555924/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58556864/out" target="_out">58556864</a>
+<a href="2018-10-02/58556864/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556864/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 0-00-121,\N,32.00 3.00 96.00 2.61 2.51,-42.09,623.82</td>
+</tr>
+<tr><td><a href="2018-10-02/58557004/out" target="_out">58557004</a>
+<a href="2018-10-02/58557004/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58557004/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58557004/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58557624/out" target="_out">58557624</a>
+<a href="2018-10-02/58557624/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58557624/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58557624/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58562384/out" target="_out">58562384</a>
+<a href="2018-10-02/58562384/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562384/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58562554 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58562964 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58563074/out" target="_out">58563074</a>
+<a href="2018-10-02/58563074/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58563074/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58563074/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58563394 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58564414/out" target="_out">58564414</a>
+<a href="2018-10-02/58564414/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58564414/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58565404 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58565734/out" target="_out">58565734</a>
+<a href="2018-10-02/58565734/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565734/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58565734/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58568384/out" target="_out">58568384</a>
+<a href="2018-10-02/58568384/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58568384/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58568414/out" target="_out">58568414</a>
+<a href="2018-10-02/58568414/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58568414/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58568464 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58569624 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58573064/out" target="_out">58573064</a>
+<a href="2018-10-02/58573064/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58573064/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573064/.pass" target="_stmt">Password</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58573434/out" target="_out">58573434</a>
+<a href="2018-10-02/58573434/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573434/.pass" target="_stmt">Password</a>
+</td><td>
+148</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58573764/out" target="_out">58573764</a>
+<a href="2018-10-02/58573764/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58573764/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-10-02/58575354/out" target="_out">58575354</a>
+<a href="2018-10-02/58575354/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58575354/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+14</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58577304/out" target="_out">58577304</a>
+<a href="2018-10-02/58577304/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58577304/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58577674 Duplicate</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58581494 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58581994 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582634 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58582764/out" target="_out">58582764</a>
+<a href="2018-10-02/58582764/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58582764/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58583604/out" target="_out">58583604</a>
+<a href="2018-10-02/58583604/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58584504 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58585114/out" target="_out">58585114</a>
+<a href="2018-10-02/58585114/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58586554/out" target="_out">58586554</a>
+<a href="2018-10-02/58586554/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58586554/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58586554/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58586564/out" target="_out">58586564</a>
+<a href="2018-10-02/58586564/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58586564/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58586564/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58586824/out" target="_out">58586824</a>
+<a href="2018-10-02/58586824/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58586824/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58587294/out" target="_out">58587294</a>
+<a href="2018-10-02/58587294/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58588184/out" target="_out">58588184</a>
+<a href="2018-10-02/58588184/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58588184/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58588184/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58588214/out" target="_out">58588214</a>
+<a href="2018-10-02/58588214/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58588214/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58588214/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58592564 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58593374 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58594964 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58595854/out" target="_out">58595854</a>
+<a href="2018-10-02/58595854/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58595854/.pass" target="_stmt">Password</a>
+</td><td>
+95</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58596084/out" target="_out">58596084</a>
+<a href="2018-10-02/58596084/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58596084/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58601714 Duplicate</td><td>
+254</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58604364 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58605164/out" target="_out">58605164</a>
+<a href="2018-10-02/58605164/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58605164/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58605164/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58514365 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58514495/out" target="_out">58514495</a>
+<a href="2018-10-02/58514495/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514495/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58515675 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58525175/out" target="_out">58525175</a>
+<a href="2018-10-02/58525175/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58525175/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58525835 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58526065/out" target="_out">58526065</a>
+<a href="2018-10-02/58526065/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58526065/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58526455 Duplicate</td><td>
+50</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58530105/out" target="_out">58530105</a>
+<a href="2018-10-02/58530105/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58530105/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58530105/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58537675/out" target="_out">58537675</a>
+<a href="2018-10-02/58537675/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58537675/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58537675/.pass" target="_stmt">Password</a>
+</td><td>
+11</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58541895/out" target="_out">58541895</a>
+<a href="2018-10-02/58541895/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58541895/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58541895/.pass" target="_stmt">Password</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58547905 Duplicate</td><td>
+31</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58547995/out" target="_out">58547995</a>
+<a href="2018-10-02/58547995/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58547995/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58549925/out" target="_out">58549925</a>
+<a href="2018-10-02/58549925/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58549925/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58550915 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58555965 Duplicate</td><td>
+31</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58556555/out" target="_out">58556555</a>
+<a href="2018-10-02/58556555/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556555/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58556655/out" target="_out">58556655</a>
+<a href="2018-10-02/58556655/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556655/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58556655/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58557505 Duplicate</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58559475/out" target="_out">58559475</a>
+<a href="2018-10-02/58559475/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58559475/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td>58562295 Duplicate</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58562625 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58562655 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58562945 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58562995/out" target="_out">58562995</a>
+<a href="2018-10-02/58562995/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562995/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58566385/out" target="_out">58566385</a>
+<a href="2018-10-02/58566385/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58566385/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58566385/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58566835/out" target="_out">58566835</a>
+<a href="2018-10-02/58566835/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58566835/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58566835/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58570745/out" target="_out">58570745</a>
+<a href="2018-10-02/58570745/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58570745/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58571675/out" target="_out">58571675</a>
+<a href="2018-10-02/58571675/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58571675/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58574635/out" target="_out">58574635</a>
+<a href="2018-10-02/58574635/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58574635/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58574635/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-10-02/58578725/out" target="_out">58578725</a>
+<a href="2018-10-02/58578725/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58578725/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58579055/out" target="_out">58579055</a>
+<a href="2018-10-02/58579055/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58579055/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58579055/.pass" target="_stmt">Password</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58579555/out" target="_out">58579555</a>
+<a href="2018-10-02/58579555/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58579555/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58581705 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58581935 Duplicate</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582195 Duplicate</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58582285 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582295 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58584175 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-08-00,\N,Q9.-08-Z018 UPIIP2M/822105213270/-- ZOO.OD 3151.37 540 l'OSISHAHED DESHDA1/NOIDA/0908 18/1.0:55,-233.46,2917.91</td>
+</tr>
+<tr><td>58584605 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58584665 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58584695/out" target="_out">58584695</a>
+<a href="2018-10-02/58584695/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58584695/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58584695/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58584705 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58585155/out" target="_out">58585155</a>
+<a href="2018-10-02/58585155/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58585805 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58588155/out" target="_out">58588155</a>
+<a href="2018-10-02/58588155/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58588155/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58592685/out" target="_out">58592685</a>
+<a href="2018-10-02/58592685/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58592685/.pass" target="_stmt">Password</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58592835 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58593295 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58594125 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58595435/out" target="_out">58595435</a>
+<a href="2018-10-02/58595435/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58595435/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58595585/out" target="_out">58595585</a>
+<a href="2018-10-02/58595585/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58595585/.pass" target="_stmt">Password</a>
+</td><td>
+95</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58595615/out" target="_out">58595615</a>
+<a href="2018-10-02/58595615/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58595615/.pass" target="_stmt">Password</a>
+</td><td>
+95</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58596405 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58598285/out" target="_out">58598285</a>
+<a href="2018-10-02/58598285/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58598285/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58598285/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58600915/out" target="_out">58600915</a>
+<a href="2018-10-02/58600915/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58600915/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58600915/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58601275/out" target="_out">58601275</a>
+<a href="2018-10-02/58601275/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58601275/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58601275/.pass" target="_stmt">Password</a>
+</td><td>
+30</td><td>
+SP2 Tabula failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58603015 Duplicate</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58605235 Duplicate</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58514306/out" target="_out">58514306</a>
+<a href="2018-10-02/58514306/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514306/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58514426 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58514846 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58515646/out" target="_out">58515646</a>
+<a href="2018-10-02/58515646/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58515646/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58515646/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58524606 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-10-02/58526476/out" target="_out">58526476</a>
+<a href="2018-10-02/58526476/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58526476/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58526476/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58528586/out" target="_out">58528586</a>
+<a href="2018-10-02/58528586/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58528586/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+26</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58530166 Duplicate</td><td>
+22</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58533636 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58534966 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58535586 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58543946/out" target="_out">58543946</a>
+<a href="2018-10-02/58543946/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58543946/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58543946/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58546176/out" target="_out">58546176</a>
+<a href="2018-10-02/58546176/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58546176/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58546176/.pass" target="_stmt">Password</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58547066 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58547126 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58549086/out" target="_out">58549086</a>
+<a href="2018-10-02/58549086/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58549086/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58549086/.pass" target="_stmt">Password</a>
+</td><td>
+matches</td><td>
+Unidentified</td><td>SP1 failed with message Binary file 58549086/out matches</td>
+</tr>
+<tr><td><a href="2018-10-02/58550216/out" target="_out">58550216</a>
+<a href="2018-10-02/58550216/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58550216/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58550216/.pass" target="_stmt">Password</a>
+</td><td>
+42</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58551696 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58552916 Duplicate</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58553746/out" target="_out">58553746</a>
+<a href="2018-10-02/58553746/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58553746/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+26</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58555706/out" target="_out">58555706</a>
+<a href="2018-10-02/58555706/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58555706/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58555706/.pass" target="_stmt">Password</a>
+</td><td>
+93</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58555986/out" target="_out">58555986</a>
+<a href="2018-10-02/58555986/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58555986/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58556716 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58557356 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58559106/out" target="_out">58559106</a>
+<a href="2018-10-02/58559106/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58559106/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58559106/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58560276 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58563086/out" target="_out">58563086</a>
+<a href="2018-10-02/58563086/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58563086/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58563086/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58564546/out" target="_out">58564546</a>
+<a href="2018-10-02/58564546/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58564546/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58564546/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564756 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564766 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58566576 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58570116/out" target="_out">58570116</a>
+<a href="2018-10-02/58570116/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58570116/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58570116/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58570806/out" target="_out">58570806</a>
+<a href="2018-10-02/58570806/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58570806/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58571136 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58571316/out" target="_out">58571316</a>
+<a href="2018-10-02/58571316/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58571316/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap for 2018-09-15 compared to 20181027 is 42 days and more than 30 days, cannot patch date</td>
+</tr>
+<tr><td>58571376 Duplicate</td><td>
+28</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap for 2018-09-15 compared to 20181027 is 42 days and more than 30 days, cannot patch date</td>
+</tr>
+<tr><td>58571776 Duplicate</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58572366 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58572376 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58572386 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58573476/out" target="_out">58573476</a>
+<a href="2018-10-02/58573476/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573476/.pass" target="_stmt">Password</a>
+</td><td>
+148</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58582026/out" target="_out">58582026</a>
+<a href="2018-10-02/58582026/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58582026/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58583716/out" target="_out">58583716</a>
+<a href="2018-10-02/58583716/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58583906/out" target="_out">58583906</a>
+<a href="2018-10-02/58583906/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58583906/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-08-00,\N,Q9.-08-Z018 UPIIP2M/822105213270/-- ZOO.OD 3151.37 540 l'OSISHAHED DESHDA1/NOIDA/0908 18/1.0:55,-233.46,2917.91</td>
+</tr>
+<tr><td>58584366 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58584516 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58585206/out" target="_out">58585206</a>
+<a href="2018-10-02/58585206/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58586666/out" target="_out">58586666</a>
+<a href="2018-10-02/58586666/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58586666/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58587866/out" target="_out">58587866</a>
+<a href="2018-10-02/58587866/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58587866/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58591296 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58599106/out" target="_out">58599106</a>
+<a href="2018-10-02/58599106/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58599106/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58599896 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58600046/out" target="_out">58600046</a>
+<a href="2018-10-02/58600046/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58600046/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58602036 Duplicate</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58602046/out" target="_out">58602046</a>
+<a href="2018-10-02/58602046/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58602046/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58603476/out" target="_out">58603476</a>
+<a href="2018-10-02/58603476/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58603476/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58603796 Duplicate</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58603896/out" target="_out">58603896</a>
+<a href="2018-10-02/58603896/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58603896/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58603896/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58525057/out" target="_out">58525057</a>
+<a href="2018-10-02/58525057/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58525057/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58525057/.pass" target="_stmt">Password</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58526517 Duplicate</td><td>
+50</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58526797/out" target="_out">58526797</a>
+<a href="2018-10-02/58526797/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58526797/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58526797/.pass" target="_stmt">Password</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58527977/out" target="_out">58527977</a>
+<a href="2018-10-02/58527977/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58527977/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58527977/.pass" target="_stmt">Password</a>
+</td><td>
+27</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58530257 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58533537 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58539697/out" target="_out">58539697</a>
+<a href="2018-10-02/58539697/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58539697/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+26</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58540187 Duplicate</td><td>
+18</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td>58551657 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58553887/out" target="_out">58553887</a>
+<a href="2018-10-02/58553887/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58553887/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58554377/out" target="_out">58554377</a>
+<a href="2018-10-02/58554377/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58554377/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58556157/out" target="_out">58556157</a>
+<a href="2018-10-02/58556157/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556157/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58556547/out" target="_out">58556547</a>
+<a href="2018-10-02/58556547/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556547/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58556997 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58559037 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-10-02/58559577/out" target="_out">58559577</a>
+<a href="2018-10-02/58559577/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58559577/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+17</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58563067 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58563587/out" target="_out">58563587</a>
+<a href="2018-10-02/58563587/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58563587/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58564777 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58571597/out" target="_out">58571597</a>
+<a href="2018-10-02/58571597/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58571597/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58577377 Duplicate</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58577927 Duplicate</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58578497/out" target="_out">58578497</a>
+<a href="2018-10-02/58578497/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58578497/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+58</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58578697 Duplicate</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58580327/out" target="_out">58580327</a>
+<a href="2018-10-02/58580327/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58580327/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582087 Duplicate</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58582237/out" target="_out">58582237</a>
+<a href="2018-10-02/58582237/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58582237/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58582237/.pass" target="_stmt">Password</a>
+</td><td>
+50</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58582927/out" target="_out">58582927</a>
+<a href="2018-10-02/58582927/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58582927/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58583457/out" target="_out">58583457</a>
+<a href="2018-10-02/58583457/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58583457/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58584297/out" target="_out">58584297</a>
+<a href="2018-10-02/58584297/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58584297/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58584737 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58585037/out" target="_out">58585037</a>
+<a href="2018-10-02/58585037/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58585037/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58585037/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58585297 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-08-00,\N,Q9.-08-Z018 UPIIP2M/822105213270/-- ZOO.OD 3151.37 540 l'OSISHAHED DESHDA1/NOIDA/0908 18/1.0:55,-233.46,2917.91</td>
+</tr>
+<tr><td><a href="2018-10-02/58588147/out" target="_out">58588147</a>
+<a href="2018-10-02/58588147/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58588147/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58592247 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58593097/out" target="_out">58593097</a>
+<a href="2018-10-02/58593097/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58593097/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58593977 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58595517/out" target="_out">58595517</a>
+<a href="2018-10-02/58595517/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58595517/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58595697 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58595787/out" target="_out">58595787</a>
+<a href="2018-10-02/58595787/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58595787/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+95</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58597497 Duplicate</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58598457/out" target="_out">58598457</a>
+<a href="2018-10-02/58598457/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58598457/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58598457/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58599347 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58599927 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58604127 Duplicate</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58514448/out" target="_out">58514448</a>
+<a href="2018-10-02/58514448/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514448/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58514448/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58514578/out" target="_out">58514578</a>
+<a href="2018-10-02/58514578/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514578/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58514578/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58514848 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58514858 Duplicate</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58515518/out" target="_out">58515518</a>
+<a href="2018-10-02/58515518/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58515518/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58515658 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58525948/out" target="_out">58525948</a>
+<a href="2018-10-02/58525948/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58525948/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58546328 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58546338 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58546638 Duplicate</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn -0-21,\N,,,</td>
+</tr>
+<tr><td>58547058 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58549758 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58550198/out" target="_out">58550198</a>
+<a href="2018-10-02/58550198/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58550198/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58551088/out" target="_out">58551088</a>
+<a href="2018-10-02/58551088/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58551088/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58551258 Duplicate</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58551628/out" target="_out">58551628</a>
+<a href="2018-10-02/58551628/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58551628/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58551628/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58551748 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58555108/out" target="_out">58555108</a>
+<a href="2018-10-02/58555108/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58555108/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58555108/.pass" target="_stmt">Password</a>
+</td><td>
+77</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-10-02/58555938/out" target="_out">58555938</a>
+<a href="2018-10-02/58555938/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58556468/out" target="_out">58556468</a>
+<a href="2018-10-02/58556468/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58556468/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58556468/.pass" target="_stmt">Password</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58557208 Duplicate</td><td>
+29</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58558038 Duplicate</td><td>
+51</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58559538/out" target="_out">58559538</a>
+<a href="2018-10-02/58559538/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58559538/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement</td>
+</tr>
+<tr><td><a href="2018-10-02/58562788/out" target="_out">58562788</a>
+<a href="2018-10-02/58562788/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562788/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58562838 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58563048/out" target="_out">58563048</a>
+<a href="2018-10-02/58563048/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58563048/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58563048/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58563248/out" target="_out">58563248</a>
+<a href="2018-10-02/58563248/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58563248/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58565248/out" target="_out">58565248</a>
+<a href="2018-10-02/58565248/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565248/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58565358/out" target="_out">58565358</a>
+<a href="2018-10-02/58565358/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565358/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58565358/.pass" target="_stmt">Password</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58565488/out" target="_out">58565488</a>
+<a href="2018-10-02/58565488/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565488/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58565558/out" target="_out">58565558</a>
+<a href="2018-10-02/58565558/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565558/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58565558/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-10-02/58569548/out" target="_out">58569548</a>
+<a href="2018-10-02/58569548/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58569548/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58569568 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58571908 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58572358 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58572488/out" target="_out">58572488</a>
+<a href="2018-10-02/58572488/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58572488/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+8</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58575288/out" target="_out">58575288</a>
+<a href="2018-10-02/58575288/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58575288/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58578078/out" target="_out">58578078</a>
+<a href="2018-10-02/58578078/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58578078/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+58</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58578158 Duplicate</td><td>
+58</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58578778/out" target="_out">58578778</a>
+<a href="2018-10-02/58578778/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58578778/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58579948/out" target="_out">58579948</a>
+<a href="2018-10-02/58579948/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58579948/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+51</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58580188/out" target="_out">58580188</a>
+<a href="2018-10-02/58580188/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58580188/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58580188/.pass" target="_stmt">Password</a>
+</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58581138/out" target="_out">58581138</a>
+<a href="2018-10-02/58581138/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58581138/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582028 Duplicate</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582268 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58582278 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58582608/out" target="_out">58582608</a>
+<a href="2018-10-02/58582608/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58582608/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58582608/.pass" target="_stmt">Password</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58584338/out" target="_out">58584338</a>
+<a href="2018-10-02/58584338/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58584478 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58585698/out" target="_out">58585698</a>
+<a href="2018-10-02/58585698/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58585698/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58585698/.pass" target="_stmt">Password</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn -0-01,\N,,,</td>
+</tr>
+<tr><td><a href="2018-10-02/58586548/out" target="_out">58586548</a>
+<a href="2018-10-02/58586548/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58586548/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58586548/.pass" target="_stmt">Password</a>
+</td><td>
+32</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58592148/out" target="_out">58592148</a>
+<a href="2018-10-02/58592148/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58592148/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58593538 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58594948 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58596488/out" target="_out">58596488</a>
+<a href="2018-10-02/58596488/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58596488/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58597478/out" target="_out">58597478</a>
+<a href="2018-10-02/58597478/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58597478/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58599708/out" target="_out">58599708</a>
+<a href="2018-10-02/58599708/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58599708/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58599708/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58601638/out" target="_out">58601638</a>
+<a href="2018-10-02/58601638/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58601638/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58601638/.pass" target="_stmt">Password</a>
+</td><td>
+254</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58603458/out" target="_out">58603458</a>
+<a href="2018-10-02/58603458/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58603458/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58603748 Duplicate</td><td>
+51</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58603768/out" target="_out">58603768</a>
+<a href="2018-10-02/58603768/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58603768/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58605238 Duplicate</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58513759/out" target="_out">58513759</a>
+<a href="2018-10-02/58513759/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58513759/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58514599/out" target="_out">58514599</a>
+<a href="2018-10-02/58514599/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58514599/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58515529 Duplicate</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58516059 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58516179/out" target="_out">58516179</a>
+<a href="2018-10-02/58516179/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58516179/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58525549/out" target="_out">58525549</a>
+<a href="2018-10-02/58525549/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58525549/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58525569 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58525849 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58525859 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58528849/out" target="_out">58528849</a>
+<a href="2018-10-02/58528849/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58528849/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58528849/.pass" target="_stmt">Password</a>
+</td><td>
+27</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58537379/out" target="_out">58537379</a>
+<a href="2018-10-02/58537379/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58537379/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58537379/.pass" target="_stmt">Password</a>
+</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58537809/out" target="_out">58537809</a>
+<a href="2018-10-02/58537809/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58537809/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+6</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58538259/out" target="_out">58538259</a>
+<a href="2018-10-02/58538259/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58538259/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+10</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58538659 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58539439 Duplicate</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58546259/out" target="_out">58546259</a>
+<a href="2018-10-02/58546259/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58546259/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+25</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn -0-21,\N,,,</td>
+</tr>
+<tr><td><a href="2018-10-02/58548269/out" target="_out">58548269</a>
+<a href="2018-10-02/58548269/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58548269/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td>58550229 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58552749/out" target="_out">58552749</a>
+<a href="2018-10-02/58552749/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58552749/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+16</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58553699/out" target="_out">58553699</a>
+<a href="2018-10-02/58553699/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58553699/.pass" target="_stmt">Password</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58555629 Duplicate</td><td>
+31</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58556779 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58558029/out" target="_out">58558029</a>
+<a href="2018-10-02/58558029/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58558029/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58558029/.pass" target="_stmt">Password</a>
+</td><td>
+51</td><td>
+Unidentified</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58558139 Duplicate</td><td>
+43</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58561139/out" target="_out">58561139</a>
+<a href="2018-10-02/58561139/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58561139/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-10-02/58562559/out" target="_out">58562559</a>
+<a href="2018-10-02/58562559/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58562559/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58562579 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58563239/out" target="_out">58563239</a>
+<a href="2018-10-02/58563239/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58563239/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.</td>
+</tr>
+<tr><td><a href="2018-10-02/58564409/out" target="_out">58564409</a>
+<a href="2018-10-02/58564409/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58564409/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+29</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58564709/out" target="_out">58564709</a>
+<a href="2018-10-02/58564709/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58564709/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58564909/out" target="_out">58564909</a>
+<a href="2018-10-02/58564909/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58564909/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58565879/out" target="_out">58565879</a>
+<a href="2018-10-02/58565879/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58565879/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58566619 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58566769 Duplicate</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58567329/out" target="_out">58567329</a>
+<a href="2018-10-02/58567329/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58567329/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58567329/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58572479/out" target="_out">58572479</a>
+<a href="2018-10-02/58572479/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58572479/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td><a href="2018-10-02/58572909/out" target="_out">58572909</a>
+<a href="2018-10-02/58572909/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58572909/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58572909/.pass" target="_stmt">Password</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58573379/out" target="_out">58573379</a>
+<a href="2018-10-02/58573379/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58573379/.pass" target="_stmt">Password</a>
+</td><td>
+148</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td><a href="2018-10-02/58573849/out" target="_out">58573849</a>
+<a href="2018-10-02/58573849/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58573849/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+23</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.</td>
+</tr>
+<tr><td><a href="2018-10-02/58574129/out" target="_out">58574129</a>
+<a href="2018-10-02/58574129/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58574129/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58574129/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018--04,\N,Cash wi,-1525875,100</td>
+</tr>
+<tr><td>58575719 Duplicate</td><td>
+24</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58576939/out" target="_out">58576939</a>
+<a href="2018-10-02/58576939/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58576939/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58576939/.pass" target="_stmt">Password</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58578219/out" target="_out">58578219</a>
+<a href="2018-10-02/58578219/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58578219/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58578229 Duplicate</td><td>
+4</td><td>
+SP2 Parser failure</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58578969 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58579169 Duplicate</td><td>
+268</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.</td>
+</tr>
+<tr><td>58582709 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58583459/out" target="_out">58583459</a>
+<a href="2018-10-02/58583459/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58583459/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td><a href="2018-10-02/58584489/out" target="_out">58584489</a>
+<a href="2018-10-02/58584489/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58584489/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58584489/.pass" target="_stmt">Password</a>
+</td><td>
+8</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58584519/out" target="_out">58584519</a>
+<a href="2018-10-02/58584519/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58584519/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+20</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58586819 Duplicate</td><td>
+43</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58586829 Duplicate</td><td>
+4</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58586839 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58590849 Duplicate</td><td>
+22</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58593099/out" target="_out">58593099</a>
+<a href="2018-10-02/58593099/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58593099/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+2</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58593279 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58593309 Duplicate</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58594989/out" target="_out">58594989</a>
+<a href="2018-10-02/58594989/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58594989/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58594989/.pass" target="_stmt">Password</a>
+</td><td>
+28</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58595639/out" target="_out">58595639</a>
+<a href="2018-10-02/58595639/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58595639/stmt.pdf" target="_stmt">Statement</a>
+<a href="2018-10-02/58595639/.pass" target="_stmt">Password</a>
+</td><td>
+9</td><td>
+SP2 Parser failure</td><td>SP1 succeeded</td>
+</tr>
+<tr><td>58595659 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58596219 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58596399 Duplicate</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+<tr><td>58596649 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td>58596659 Duplicate</td><td>
+35</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td>58596739 Duplicate</td><td>
+20</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []</td>
+</tr>
+<tr><td><a href="2018-10-02/58597159/out" target="_out">58597159</a>
+<a href="2018-10-02/58597159/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58597159/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+9</td><td>
+Unidentified</td><td>SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found</td>
+</tr>
+<tr><td><a href="2018-10-02/58604119/out" target="_out">58604119</a>
+<a href="2018-10-02/58604119/firstpage.jpg" target="_image">Image</a>
+<a href="2018-10-02/58604119/stmt.pdf" target="_stmt">Statement</a>
+</td><td>
+35</td><td>
+SP2 Parser failure</td><td>SP1 possibly timed out</td>
+</tr>
+</table>
+</body></html>
