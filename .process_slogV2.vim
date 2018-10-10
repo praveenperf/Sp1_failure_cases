@@ -1,6 +1,6 @@
 g!/^[0-9]\{6,8\} /d
 g/Duplicate\|SP1 succeeded/d
-%s/^\([0-9]\{7,8\}\).*	\([0-9]\{1,3\}\)	\(.*\)	\(SP1 failed\|SP1 possibly timed out\).*$/\2	\1	\3	\4/g
+%s/^\([0-9]\{6,8\}\).*	\([0-9]\{1,3\}\)	\(.*\)	\(SP1 failed\|SP1 possibly timed out\).*$/\2	\1	\3	\4/g
 %sort n
 g/Unidentified/m$
 gg
@@ -14,4 +14,4 @@ g/	SP1 possibly/m$
 gg
 /	SP1 possibly
 .,$sort n
-%s/\([0-9]\{8\}\)	.*/\1/g
+%s/\([0-9]\{6,8\}\)	.*/\1/g
