@@ -1,0 +1,1237 @@
+Statement Parser 2 Failure Analysis [host = bheema, date = 2018-10-16]
+Summary
+Total Attempts - 25850
+SP2 failure - 1229 times
+When SP2 failed - SP1 succeeded 311 times, failed 829 times, unknown status (timed out?) 89 times
+Nature of SP2 failure - Total: 1229, Unidentified: 901, Unimplemented: 0, Parser Failure: 319, Itemizer Failure: 0, Tabula Failure: 2, Internal Error: 1, Others: 6
+Details
+Data dir & files	Declared inst_id	SP2 Failure	SP1 Result
+60393750 Image Statement	30	Unidentified	SP1 succeeded
+60393880 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60393890 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60393940 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60406910 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60409150 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60410850 Image Statement Password	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60411620 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60413550 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60414080 Image Statement Password	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60415020 Image Statement Password	11	Unidentified	SP1 possibly timed out
+60415820 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60418670 Statement	174	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60419130 Image Statement	90	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60419640 Image Statement	45	Unidentified	SP1 succeeded
+60419720 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60425170 Duplicate	20	Unidentified	SP1 succeeded
+60426580 Image Statement	11	Unidentified	SP1 possibly timed out
+60427390 Image Statement	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60429230 Image Statement	11	SP2 Parser failure	SP1 succeeded
+60430430 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434080 Image Statement	8	Unidentified	SP1 succeeded
+60436480 Duplicate	20	Unidentified	SP1 succeeded
+60436800 Statement	44	Unidentified	SP1 succeeded
+60438610 Duplicate	11	Unidentified	SP1 possibly timed out
+60439910 Statement Password	191	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60440980 Duplicate	191	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60443080 Duplicate	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60445040 Duplicate	20	Unidentified	SP1 succeeded
+60445080 Duplicate	20	Unidentified	SP1 succeeded
+60446200 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60448290 Image Statement	20	SP2 Parser failure	SP1 succeeded
+60451020 Statement Password	23	Unidentified	SP1 succeeded
+60452100 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60452520 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452630 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60453790 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60456140 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60457270 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60457310 Duplicate	17	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60458000 Duplicate	31	Unidentified	SP1 possibly timed out
+60458630 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60459370 Duplicate	23	Unidentified	SP1 succeeded
+60461070 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60462600 Duplicate	31	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60464050 Statement Password	2	Unidentified	SP1 succeeded
+60464480 Image Statement Password	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60464910 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60465310 Image Statement	83	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60465690 Image Statement Password	10	Unidentified	SP1 succeeded
+60465950 Image Statement	35	SP2 Internal error	SP1 possibly timed out
+60470360 Duplicate	83	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60472630 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60472760 Duplicate	8	SP2 Parser failure	SP1 succeeded
+60475390 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60475460 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60475990 Image Statement	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60479440 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60481240 Image Statement	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60482480 Image Statement	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60483660 Duplicate	21	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60486570 Duplicate	12	SP2 Parser failure	SP1 succeeded
+60487750 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60488320 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60490080 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490340 Image Statement	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490550 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490750 Duplicate	17	Unidentified	SP1 possibly timed out
+60490820 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60493950 Duplicate	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60495990 Duplicate	8	Unidentified	SP1 succeeded
+60496580 Image Statement Password	30	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60497390 Image Statement Password	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498110 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498390 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60498920 Image Statement	140	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498940 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60501920 Image Statement	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502500 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502540 Image Statement	16	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502880 Image Statement	30	Unidentified	SP1 possibly timed out
+60503110 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60503710 Image Statement	22	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT Improper bank statement, does not have running balance.
+60505790 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60507100 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60513630 Image Statement Password	16	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515140 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517600 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60518330 Image Statement	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60518580 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60519940 Duplicate	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60520060 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60521850 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60525150 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60527430 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60527870 Image Statement	28	SP2 Parser failure	SP1 succeeded
+60528180 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60532170 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60535090 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60538490 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60538970 Image Statement Password	43	Unidentified	SP1 possibly timed out
+60541390 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60542890 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543290 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543400 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543860 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543920 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544040 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544130 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544410 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544510 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60545500 Image Statement Password	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546240 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546450 Statement Password	41	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546510 Image Statement Password	4	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546770 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60550660 Duplicate	30	Unidentified	SP1 possibly timed out
+60550730 Image Statement Password	2	Unidentified	SP1 succeeded
+60550960 Duplicate	22	Unidentified	SP1 succeeded
+60551590 Image Statement	77	Unidentified	SP1 failed with message #ERROR INVALID HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60329311 Duplicate	20	Unidentified	SP1 succeeded
+60358121 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60393771 Statement	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60393801 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60395161 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60395641 Image Statement	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60405651 Image Statement Password	11	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60408521 Duplicate	52	SP2 Parser failure	SP1 succeeded
+60409131 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60411531 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60412541 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60415311 Image Statement Password	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60416051 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60416191 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60417341 Image Statement Password	267	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60419881 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60420551 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60424231 Duplicate	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-07-31] currXnDate[2018-07-27] nextXnDate[2018-07-26]
+60426991 Image Statement	35	Unidentified	SP1 succeeded
+60427301 Duplicate	11	Unidentified	SP1 possibly timed out
+60429801 Image Statement Password	226	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60432001 Duplicate	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60432011 Duplicate	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60434551 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434841 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434871 Duplicate	21	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60435051 Image Statement	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60438071 Duplicate	11	Unidentified	SP1 possibly timed out
+60445501 Duplicate	20	Unidentified	SP1 succeeded
+60445891 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60451411 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453801 Duplicate	15	SP2 Parser failure	SP1 succeeded
+60453871 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60453981 Image Statement	11	Unidentified	SP1 succeeded
+60454251 Duplicate	23	Unidentified	SP1 succeeded
+60454451 Duplicate	23	Unidentified	SP1 succeeded
+60454471 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60455721 Duplicate	172	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60456531 Duplicate	4	Unidentified	SP1 succeeded
+60456831 Duplicate	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60458921 Duplicate	20	SP2 Parser failure	SP1 succeeded
+60460371 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60460671 Image Statement Password	22	Unidentified	SP1 succeeded
+60460921 Image Statement	23	Unidentified	SP1 succeeded
+60465241 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60465311 Image Statement	83	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60468651 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60469691 Image Statement Password	51	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60470361 Duplicate	83	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60472141 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60472851 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60472871 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60473191 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60473641 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60477381 Image Statement Password	19	SP2 Parser failure	SP1 succeeded
+60477891 Image Statement Password	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60481171 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60481251 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60482231 Image Statement	21	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60482391 Duplicate	11	SP2 Parser failure	SP1 succeeded
+60482471 Image Statement	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60488291 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60488791 Duplicate	14	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-06-26] currXnDate[2018-02-07] nextXnDate[2018-03-07]
+60490341 Image Statement	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490541 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490551 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490721 Image Statement Password	4	SP2 Parser failure	SP1 succeeded
+60490751 Image Statement	15	Unidentified	SP1 possibly timed out
+60491341 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60492051 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60492571 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60493681 Image Statement	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-08-15] currXnDate[2018-08-14] nextXnDate[2018-08-16]
+60494401 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60495951 Image Statement	8	Unidentified	SP1 succeeded
+60496581 Image Statement Password	30	Unidentified	SP1 succeeded
+60496591 Image Statement Password	30	Unidentified	SP1 possibly timed out
+60496601 Image Statement Password	30	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60497001 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60497011 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60497751 Image Statement Password	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498311 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498381 Duplicate	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60498391 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60500371 Duplicate	8	Unidentified	SP1 succeeded
+60501391 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502261 Image Statement Password	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60503871 Duplicate	30	Unidentified	SP1 possibly timed out
+60503951 Duplicate	25	Unidentified	SP1 succeeded
+60504641 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60506291 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-07-61,\N,.Int.Coll.01-0 j" \, 3 86\,595.00 90\,79\,839.50or i i \, 30130500000003:Int.Coll:01-07-2018 to 31-07-2018,50000.00,-9129839.5
+60506661 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60507351 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60508231 Image Statement	156	SP2 Parser failure	SP1 succeeded
+60509201 Duplicate	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-04-12] and currXnDate[2018-04-11]
+60509551 Duplicate	29	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60510661 Image Statement Password	4	SP2 Parser failure	SP1 succeeded
+60512281 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515701 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515781 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60516111 Image Statement	24	Unidentified	SP1 succeeded
+60516861 Duplicate	44	Unidentified	SP1 succeeded
+60517391 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60519381 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60520151 Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60521281 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60521341 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60524471 Image Statement	81	Unidentified	SP1 succeeded
+60524761 Image Statement	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60525441 Image Statement	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60527931 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60527971 Image Statement Password	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60530101 Image Statement Password	71	Unidentified	SP1 succeeded
+60532241 Image Statement	22		SP1 succeeded
+60532271 Statement Password	9		SP1 succeeded
+60532301 Duplicate	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60535041 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60535101 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60535941 Image Statement Password	57	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Withdrawal length not found
+60536401 Image Statement Password	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60536851 Image Statement	11	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60537131 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537161 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60537331 Duplicate	71	Unidentified	SP1 succeeded
+60538601 Duplicate	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60539961 Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.
+60540001 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543351 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543591 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543731 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544051 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60544541 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544621 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546001 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546511 Duplicate	25	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60549281 Duplicate	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60550571 Image Statement	30	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60552641 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60552651 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60553541 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60393902 Duplicate	30	Unidentified	SP1 succeeded
+60395832 Image Statement Password	2	SP2 Parser failure	SP1 succeeded
+60406772 Image Statement Password	28	Unidentified	SP1 failed with message #ERROR INVALID E_FILE_NOT_STATEMENT You have uploaded a Credit Card statement, please upload a valid bank statement.
+60406912 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60408512 Image Statement Password	52	SP2 Parser failure	SP1 succeeded
+60408912 Image Statement	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60412492 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60418542 Image Statement	151	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60423292 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60423332 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60423382 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60423402 Duplicate	77	SP2 Parser failure	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60426412 Image Statement	21	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60427962 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60429172 Image Statement	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60429312 Duplicate	178	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60430252 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60430442 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60430472 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60431082 Image Statement Password	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60431442 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60431982 Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60431992 Image Statement Password	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60433112 Image Statement	20	SP2 Parser failure	SP1 succeeded
+60434892 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60435722 Image Statement	76	Unidentified	SP1 succeeded
+60435752 Image Statement	25		SP1 succeeded
+60435792 Image Statement	76	Unidentified	SP1 succeeded
+60435872 Image Statement	76	Unidentified	SP1 succeeded
+60437072 Image Statement	268	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60440592 Image Statement Password	255	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60445892 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60448302 Image Statement	52	SP2 Parser failure	SP1 succeeded
+60451192 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452822 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452992 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60453432 Image Statement	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453772 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60456132 Image Statement	4	Unidentified	SP1 succeeded
+60456362 Image Statement Password	81	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60457652 Image Statement	31	Unidentified	SP1 possibly timed out
+60457842 Image Statement	51	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60458032 Duplicate	31	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60458672 Duplicate	45	Unidentified	SP1 succeeded
+60462832 Duplicate	17	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60465092 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60465312 Image Statement	83	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60465942 Image Statement Password	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60470362 Duplicate	83	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60472712 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60474712 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60474882 Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60478352 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60479822 Image Statement	20	Unidentified	SP1 succeeded
+60480322 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60480602 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60481402 Duplicate	44	Unidentified	SP1 possibly timed out
+60482262 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60484172 Duplicate	20	Unidentified	SP1 succeeded
+60486362 Image Statement	12	SP2 Parser failure	SP1 succeeded
+60486712 Image Statement Password	9	Unidentified	SP1 succeeded
+60486902 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60487042 Statement	44	Unidentified	SP1 possibly timed out
+60488162 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60489502 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60489582 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60489662 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60489732 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60490272 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490342 Image Statement	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490552 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60492122 Duplicate	44	Unidentified	SP1 succeeded
+60494492 Image Statement	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-09-30] and currXnDate[2018-09-29]
+60496662 Duplicate	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-06-30] and currXnDate[2018-06-29]
+60498492 Duplicate	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-06-30] and currXnDate[2018-06-29]
+60498742 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60499232 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60500222 Duplicate	8	Unidentified	SP1 succeeded
+60501082 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60501792 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502102 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502312 Image Statement	25	Unidentified	SP1 succeeded
+60503142 Duplicate	30	Unidentified	SP1 possibly timed out
+60505172 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60506472 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60506742 Image Statement	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-04-12] and currXnDate[2018-04-11]
+60509162 Duplicate	2	SP2 Parser failure	SP1 succeeded
+60510102 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60510372 Duplicate	42	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60513702 Image Statement	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60514592 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60514702 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60514872 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60516442 Image Statement Password	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60516562 Image Statement Password	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517992 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60519582 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60520062 Image Statement	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60520842 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60521022 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60521542 Image Statement	8	Unidentified	SP1 possibly timed out
+60522802 Duplicate	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60524052 Duplicate	30	Unidentified	SP1 succeeded
+60524702 Duplicate	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60527022 Duplicate	15	SP2 Parser failure	SP1 succeeded
+60527752 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60529632 Duplicate	50	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-04-01] dateGap [533] for xn [2020-04-01,\N,18 B/F... 31.35SALARY A/C REAL TIME HR,0.00,18537.00]
+60532222 Image Statement	22		SP1 succeeded
+60534962 Duplicate	12	Unidentified	SP1 succeeded
+60536732 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60537132 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537992 Image Statement	51	Unidentified	SP1 succeeded
+60538042 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60539592 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60539872 Image Statement	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60539952 Statement	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60542912 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543372 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543492 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546032 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546082 Image Statement	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60547242 Image Statement Password	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60550472 Image Statement	30	Unidentified	SP1 possibly timed out
+60552022 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60292203 Duplicate	20	Unidentified	SP1 succeeded
+60395193 Image Statement Password	10	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60396723 Statement Password	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60405353 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60405373 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60408223 Image Statement	268	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60413453 Image Statement Password	30	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60416233 Image Statement	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60416383 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60417513 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60419453 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60421953 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60422913 Image Statement	29	Unidentified	SP1 possibly timed out
+60424773 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60425053 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60427283 Image Statement Password	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60427703 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60430463 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60433773 Image Statement	23	Unidentified	SP1 succeeded
+60433933 Duplicate	23	Unidentified	SP1 succeeded
+60434563 Statement Password	10	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434743 Duplicate	20	Unidentified	SP1 succeeded
+60435683 Image Statement	35		SP1 succeeded
+60435963 Image Statement	76	Unidentified	SP1 succeeded
+60436023 Image Statement	76	Unidentified	SP1 succeeded
+60438483 Duplicate	21	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60439353 Image Statement Password	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60439563 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60440483 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60443183 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60444083 Duplicate	20	Unidentified	SP1 succeeded
+60444963 Image Statement	140	SP2 Parser failure	SP1 succeeded
+60445533 Duplicate	20	Unidentified	SP1 succeeded
+60445893 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60446963 Statement	14	Unidentified	SP1 succeeded
+60448703 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60451483 Image Statement	16	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60451493 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60451933 Duplicate	23	Unidentified	SP1 succeeded
+60452073 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453293 Image Statement Password	23	Unidentified	SP1 succeeded
+60453533 Image Statement	30	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453643 Duplicate	23	Unidentified	SP1 succeeded
+60454293 Duplicate	23	Unidentified	SP1 succeeded
+60455453 Duplicate	44	Unidentified	SP1 possibly timed out
+60456543 Image Statement	9	Unidentified	SP1 succeeded
+60457773 Duplicate	31	Unidentified	SP1 possibly timed out
+60458483 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60460233 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60460393 Image Statement Password	20	SP2 Parser failure	SP1 succeeded
+60460783 Image Statement	4	Unidentified	SP1 succeeded
+60462823 Image Statement	17	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60463293 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60464123 Duplicate	20	Unidentified	SP1 succeeded
+60464973 Image Statement Password	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60465403 Statement	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60471503 Duplicate	8	Unidentified	SP1 succeeded
+60472133 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60474223 Image Statement Password	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60475353 Duplicate	20	Unidentified	SP1 succeeded
+60475403 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60478323 Duplicate	44	Unidentified	SP1 possibly timed out
+60478813 Duplicate	8	SP2 Parser failure	SP1 succeeded
+60484193 Duplicate	12	SP2 Parser failure	SP1 succeeded
+60486483 Duplicate	22	Unidentified	SP1 succeeded
+60486753 Image Statement	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60488273 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60488333 Statement Password	10	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60488783 Duplicate	14	Unidentified	SP1 succeeded
+60489173 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490213 Image Statement	17	Unidentified	SP1 succeeded
+60490343 Image Statement	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490553 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490853 Image Statement	198	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60492343 Duplicate	9	Unidentified	SP1 succeeded
+60492743 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60494333 Duplicate	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-08-15] currXnDate[2018-08-14] nextXnDate[2018-08-16]
+60495143 Duplicate	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-09-30] and currXnDate[2018-09-29]
+60496473 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60496823 Duplicate	22	SP2 Parser failure	SP1 succeeded
+60497443 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60497913 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498663 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60500133 Image Statement	15	Unidentified	SP1 possibly timed out
+60500913 Duplicate	15	Unidentified	SP1 possibly timed out
+60501093 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502663 Image Statement	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60503193 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60504103 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60505073 Image Statement	9	SP2 Parser failure	SP1 succeeded
+60505403 Image Statement Password	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-07-61,\N,.Int.Coll.01-0 j" \, 3 86\,595.00 90\,79\,839.50or i i \, 30130500000003:Int.Coll:01-07-2018 to 31-07-2018,50000.00,-9129839.5
+60506013 Image Statement	19	SP2 Parser failure	SP1 possibly timed out
+60508293 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60509013 Image Statement Password	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60509623 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60509753 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60511343 Image Statement	8	SP2 Parser failure	SP1 succeeded
+60511543 Image Statement Password	44	SP2 Parser failure	SP1 succeeded
+60513793 Image Statement	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60514013 Duplicate	44	Unidentified	SP1 succeeded
+60514953 Duplicate	140	Unidentified	SP1 succeeded
+60515363 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515673 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515803 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60516033 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517693 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517733 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60519063 Statement Password	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60520173 Duplicate	12	Unidentified	SP1 succeeded
+60521873 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60522313 Image Statement	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60522453 Image Statement	22	SP2 Parser failure	SP1 possibly timed out
+60523083 Image Statement	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60524443 Duplicate	30	Unidentified	SP1 succeeded
+60524483 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60525403 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60526583 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60526613 Duplicate	15	SP2 Parser failure	SP1 succeeded
+60527553 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60528423 Image Statement	35	SP2 Tabula failure	SP1 succeeded
+60529333 Duplicate	50	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-04-01] dateGap [533] for xn [2020-04-01,\N,18 B/F... 31.35SALARY A/C REAL TIME HR,0.00,18537.00]
+60529923 Duplicate	50	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-04-01] dateGap [533] for xn [2020-04-01,\N,18 B/F... 31.35SALARY A/C REAL TIME HR,0.00,18537.00]
+60536483 Image Statement Password	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60537133 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537833 Image Statement Password	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60539953 Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.
+60541863 Image Statement	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543143 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543423 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60543643 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543693 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543753 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544053 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60545583 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60546813 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60548163 Duplicate	11	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60549363 Image Statement	268	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60550073 Statement Password	140	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60551613 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60551973 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60394674 Image Statement Password	267	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60398684 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60405174 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60408554 Image Statement Password	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60411384 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60419394 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60424684 Image Statement	10	Unidentified	SP1 succeeded
+60427054 Duplicate	11	Unidentified	SP1 possibly timed out
+60427614 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60429924 Duplicate	154	SP2 Parser failure	SP1 succeeded
+60430454 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434234 Image Statement	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434404 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434594 Duplicate	10	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60435964 Image Statement	76	Unidentified	SP1 succeeded
+60436424 Statement	22	Unidentified	SP1 possibly timed out
+60437804 Image Statement	11	Unidentified	SP1 possibly timed out
+60438674 Duplicate	21	Unidentified	SP1 possibly timed out
+60441584 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452094 Image Statement Password	9	SP2 Parser failure	SP1 succeeded
+60452234 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452264 Image Statement	17	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452714 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60453564 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60455154 Image Statement Password	44	Unidentified	SP1 possibly timed out
+60456024 Duplicate	31	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60456924 Image Statement Password	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60457884 Duplicate	20	Unidentified	SP1 succeeded
+60459364 Duplicate	20	SP2 Parser failure	SP1 succeeded
+60462594 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60465594 Statement	8	SP2 Parser failure	SP1 succeeded
+60465634 Image Statement	103	Unidentified	SP1 succeeded
+60466654 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60467404 Image Statement	20	SP2 Parser failure	SP1 possibly timed out
+60468424 Image Statement	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60471264 Image Statement	8	Unidentified	SP1 succeeded
+60472804 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60475554 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60478514 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60480914 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60483184 Image Statement Password	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60483994 Duplicate	12	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60484144 Image Statement	12	SP2 Parser failure	SP1 succeeded
+60484484 Duplicate	12	SP2 Parser failure	SP1 succeeded
+60486924 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60487304 Duplicate	12	SP2 Parser failure	SP1 succeeded
+60488274 Statement Password	10	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60489704 Image Statement	45	Unidentified	SP1 succeeded
+60489934 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490344 Image Statement	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490554 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60493094 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60496034 Duplicate	8	Unidentified	SP1 succeeded
+60496474 Image Statement	22	SP2 Parser failure	SP1 succeeded
+60497544 Image Statement	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498574 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498674 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60499234 Image Statement	8	Unidentified	SP1 possibly timed out
+60501114 Image Statement	35	SP2 Parser failure	SP1 succeeded
+60502154 Image Statement	50	Unidentified	SP1 succeeded
+60503754 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60504184 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60504894 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60504914 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60505244 Image Statement	15	SP2 Parser failure	SP1 succeeded
+60507484 Duplicate	22	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT Improper bank statement, does not have running balance.
+60509064 Duplicate	44	Unidentified	SP1 possibly timed out
+60511884 Duplicate	44	SP2 Parser failure	SP1 succeeded
+60513214 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60514394 Duplicate	81	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60514534 Image Statement	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60514574 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60515094 Image Statement	8	Unidentified	SP1 succeeded
+60515854 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515894 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517484 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60519084 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60519124 Statement Password	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60519804 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60519994 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60520094 Image Statement	20	SP2 Parser failure	SP1 succeeded
+60520404 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60521664 Image Statement Password	30	Unidentified	SP1 succeeded
+60521814 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60522324 Duplicate	20	SP2 Parser failure	SP1 succeeded
+60522334 Duplicate	20	SP2 Parser failure	SP1 succeeded
+60522424 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60524994 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60525334 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60525454 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60525504 Duplicate	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60526214 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60529324 Duplicate	30	Unidentified	SP1 possibly timed out
+60537134 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537544 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60540554 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60540614 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60540624 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60541434 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60542024 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543094 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60543444 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543574 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543824 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60545524 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60547054 Image Statement Password	6	Unidentified	SP1 possibly timed out
+60551884 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60553104 Image Statement Password	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60394165 Image Statement Password	43	Unidentified	SP1 succeeded
+60397335 Image Statement Password	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60397375 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60414605 Statement Password	41	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-08-18,\N,CASH DEPOSIT,5000.05000.00,0
+60415655 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60418545 Image Statement	151	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60420155 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60424635 Duplicate	20	Unidentified	SP1 succeeded
+60426625 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60431605 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60433115 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60435735 Duplicate	20		SP1 succeeded
+60436375 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60441515 Image Statement	42	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60446025 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60446965 Duplicate	14	Unidentified	SP1 succeeded
+60451515 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60451575 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452235 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452365 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60452705 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453165 Duplicate	31	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453265 Image Statement Password	2	SP2 Parser failure	SP1 succeeded
+60453325 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453905 Duplicate	23	Unidentified	SP1 succeeded
+60454155 Image Statement Password	4	Unidentified	SP1 succeeded
+60455435 Duplicate	172	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60458525 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60458905 Duplicate	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.
+60460555 Duplicate	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60463185 Duplicate	20	Unidentified	SP1 succeeded
+60465035 Duplicate	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60469995 Duplicate	20	Unidentified	SP1 succeeded
+60470565 Duplicate	20	Unidentified	SP1 succeeded
+60475515 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60476165 Duplicate	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60476765 Duplicate	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60477255 Image Statement Password	19	SP2 Parser failure	SP1 succeeded
+60480855 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60483355 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60486915 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60489895 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490955 Duplicate	20	Unidentified	SP1 succeeded
+60490965 Duplicate	9	Unidentified	SP1 succeeded
+60491435 Image Statement	31	Unidentified	SP1 possibly timed out
+60491675 Duplicate	9	Unidentified	SP1 succeeded
+60492065 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60492965 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60496075 Duplicate	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-09-30] and currXnDate[2018-09-29]
+60496585 Image Statement Password	30	Unidentified	SP1 succeeded
+60496765 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60496965 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60497635 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60497655 Duplicate	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-09-30] and currXnDate[2018-09-29]
+60497725 Statement Password	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498135 Duplicate	45	Unidentified	SP1 succeeded
+60498145 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498785 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498895 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60501815 Image Statement	44	Unidentified	SP1 succeeded
+60504545 Image Statement	44	Unidentified	SP1 possibly timed out
+60505175 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60507755 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60512245 Duplicate	44	SP2 Parser failure	SP1 succeeded
+60513805 Image Statement Password	81	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60513925 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60514455 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60514555 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60515075 Duplicate	8	Unidentified	SP1 succeeded
+60515115 Duplicate	8	Unidentified	SP1 succeeded
+60515145 Duplicate	8	Unidentified	SP1 succeeded
+60517165 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517235 Image Statement Password	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60519095 Image Statement	35	Unidentified	SP1 possibly timed out
+60519495 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60519875 Duplicate	8	SP2 Parser failure	SP1 succeeded
+60521005 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60522745 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60524435 Image Statement	81	Unidentified	SP1 succeeded
+60525075 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60525925 Duplicate	8	Unidentified	SP1 possibly timed out
+60526355 Image Statement Password	15	SP2 Parser failure	SP1 succeeded
+60526435 Duplicate	15	SP2 Parser failure	SP1 succeeded
+60526655 Image Statement	16	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60527015 Image Statement Password	50	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-04-01] dateGap [533] for xn [2020-04-01,\N,18 B/F... 31.35SALARY A/C REAL TIME HR,0.00,18537.00]
+60527565 Duplicate	151	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60527645 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60527825 Duplicate	50	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-04-01] dateGap [533] for xn [2020-04-01,\N,18 B/F... 31.35SALARY A/C REAL TIME HR,0.00,18537.00]
+60528485 Image Statement	35	SP2 Tabula failure	SP1 succeeded
+60528865 Duplicate	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60530105 Image Statement Password	2	Unidentified	SP1 succeeded
+60530155 Image Statement	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537135 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537195 Image Statement	46	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT We donot support statements of this type.
+60538145 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60539345 Image Statement	11	SP2 Parser failure	SP1 succeeded
+60539915 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60541315 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543265 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543655 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543945 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543995 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544025 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544155 Image Statement	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544205 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544305 Image Statement Password	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544375 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544395 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60545535 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546075 Image Statement Password	25	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60550955 Image Statement Password	22	Unidentified	SP1 succeeded
+60551825 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60552355 Image Statement Password	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60394176 Image Statement	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60407076 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60407266 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60408516 Duplicate	52	SP2 Parser failure	SP1 succeeded
+60408526 Duplicate	52	SP2 Parser failure	SP1 succeeded
+60408956 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60409646 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60412656 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60415106 Duplicate	11	Unidentified	SP1 possibly timed out
+60416766 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60417236 Image Statement Password	30	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60419936 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60420176 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60420756 Image Statement	8	SP2 Parser failure	SP1 succeeded
+60421736 Image Statement	43	Unidentified	SP1 succeeded
+60422606 Duplicate	77	SP2 Parser failure	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60422976 Duplicate	29	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60423466 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60425936 Duplicate	20	Unidentified	SP1 succeeded
+60427756 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60428236 Image Statement	11	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60428986 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60431896 Duplicate	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434206 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434576 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60434966 Image Statement	15	SP2 Parser failure	SP1 succeeded
+60436136 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60436596 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60436716 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60442946 Image Statement Password	41	SP2 Parser failure	SP1 succeeded
+60446916 Image Statement Password	22	Unidentified	SP1 succeeded
+60447596 Duplicate	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-07-31] currXnDate[2018-07-27] nextXnDate[2018-07-26]
+60451056 Duplicate	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452706 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453256 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60453626 Image Statement	12	SP2 Parser failure	SP1 succeeded
+60456606 Duplicate	31	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60456996 Image Statement Password	20	SP2 Parser failure	SP1 succeeded
+60457476 Image Statement	81	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60457876 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60458316 Duplicate	20	SP2 Parser failure	SP1 succeeded
+60462396 Image Statement	9	Unidentified	SP1 succeeded
+60464726 Duplicate	44	Unidentified	SP1 possibly timed out
+60472416 Duplicate	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.
+60472676 Image Statement	8	SP2 Parser failure	SP1 succeeded
+60473116 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60473146 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60473806 Statement	44	Unidentified	SP1 possibly timed out
+60474896 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60475476 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60475496 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60475506 Image Statement	248	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60475606 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60476306 Image Statement Password	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60477386 Image Statement	35	SP2 Parser failure	SP1 succeeded
+60478606 Image Statement	12	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60478946 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60480296 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60480816 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60481246 Image Statement	44	Unidentified	SP1 possibly timed out
+60482356 Duplicate	77	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60483826 Duplicate	31	Unidentified	SP1 possibly timed out
+60488006 Image Statement Password	4	SP2 Parser failure	SP1 succeeded
+60488266 Duplicate	29	Unidentified	SP1 succeeded
+60488316 Statement Password	10	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60488336 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60489016 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490916 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60491926 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60492416 Duplicate	9	Unidentified	SP1 succeeded
+60493616 Image Statement	192	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60493836 Image Statement Password	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60495646 Duplicate	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-09-30] and currXnDate[2018-09-29]
+60496596 Image Statement Password	30	Unidentified	SP1 possibly timed out
+60496606 Image Statement Password	30	Unidentified	SP1 succeeded
+60496696 Image Statement	30	Unidentified	SP1 possibly timed out
+60497526 Duplicate	22	SP2 Parser failure	SP1 succeeded
+60497546 Duplicate	22	SP2 Parser failure	SP1 succeeded
+60498196 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498456 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498856 Image Statement	140	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502406 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60502776 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60504126 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60504506 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60506216 Duplicate	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-08-15] currXnDate[2018-08-14] nextXnDate[2018-08-16]
+60507366 Image Statement	2	SP2 Parser failure	SP1 succeeded
+60507676 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60509146 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60509266 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60509726 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60510816 Image Statement Password	42	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60510836 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60511106 Duplicate	12	Unidentified	SP1 succeeded
+60511426 Image Statement Password	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60514436 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60514586 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60515476 Image Statement Password	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515726 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515846 Image Statement	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515856 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60516156 Duplicate	24	Unidentified	SP1 succeeded
+60516296 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60516546 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517376 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517446 Duplicate	41	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-09-01] currXnDate[2018-08-31] nextXnDate[2018-09-03]
+60517456 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60519496 Duplicate	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-08-15] currXnDate[2018-08-14] nextXnDate[2018-08-16]
+60520106 Image Statement	20	SP2 Parser failure	SP1 succeeded
+60521796 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60522896 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60524806 Image Statement	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60526716 Duplicate	15	SP2 Parser failure	SP1 succeeded
+60527306 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60527396 Image Statement	41	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60527866 Duplicate	50	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-04-01] dateGap [533] for xn [2020-04-01,\N,18 B/F... 31.35SALARY A/C REAL TIME HR,0.00,18537.00]
+60527926 Duplicate	20	Unidentified	SP1 succeeded
+60528136 Duplicate	8	Unidentified	SP1 possibly timed out
+60528266 Image Statement Password	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60528326 Image Statement	28	SP2 Parser failure	SP1 succeeded
+60528956 Duplicate	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60534916 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537026 Image Statement Password	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60541676 Duplicate	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60541916 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60542366 Duplicate	43	Unidentified	SP1 possibly timed out
+60543546 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543676 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543976 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544086 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544146 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544436 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544956 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60550396 Duplicate	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60405277 Image Statement	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60419877 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60422237 Image Statement Password	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60422687 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60423857 Image Statement Password	72	SP2 Parser failure	SP1 succeeded
+60425557 Duplicate	20	Unidentified	SP1 succeeded
+60426767 Duplicate	11	Unidentified	SP1 possibly timed out
+60427647 Duplicate	11	Unidentified	SP1 possibly timed out
+60427657 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60427817 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60429137 Image Statement	178	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60432577 Duplicate	154	SP2 Parser failure	SP1 succeeded
+60433467 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60433607 Image Statement	31	Unidentified	SP1 possibly timed out
+60433717 Duplicate	31	Unidentified	SP1 possibly timed out
+60435427 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60435637 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60437207 Image Statement Password	2	SP2 Parser failure	SP1 succeeded
+60437457 Image Statement Password	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60440427 Image Statement	244	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60442657 Image Statement	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-10-02] and currXnDate[2018-10-01]
+60442757 Duplicate	191	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60442927 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60450697 Duplicate	24	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-09-24] currXnDate[2018-09-20] nextXnDate[2018-09-20]
+60451477 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60451567 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60451597 Duplicate	16	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60452587 Image Statement Password	9	SP2 Parser failure	SP1 succeeded
+60452627 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60452997 Image Statement Password	31	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60454337 Image Statement Password	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60455787 Duplicate	172	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60457347 Duplicate	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.
+60458047 Duplicate	11	Unidentified	SP1 possibly timed out
+60458107 Image Statement Password	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60458477 Image Statement	45	Unidentified	SP1 succeeded
+60459547 Duplicate	23	Unidentified	SP1 succeeded
+60459607 Duplicate	20	Unidentified	SP1 succeeded
+60459717 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60460027 Image Statement	234	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60460927 Duplicate	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60462347 Image Statement	31	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60462967 Image Statement Password	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60464997 Image Statement Password	9	SP2 Parser failure	SP1 succeeded
+60465607 Duplicate	8	SP2 Parser failure	SP1 succeeded
+60467847 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60468007 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60471427 Duplicate	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60473837 Image Statement	244	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60474477 Duplicate	90	Unidentified	SP1 succeeded
+60475437 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60476007 Image Statement	57	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Withdrawal length not found
+60478747 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60479417 Duplicate	44	Unidentified	SP1 possibly timed out
+60480537 Duplicate	44	Unidentified	SP1 possibly timed out
+60482657 Image Statement	9	Unidentified	SP1 possibly timed out
+60483187 Duplicate	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60486697 Statement	44	Unidentified	SP1 possibly timed out
+60486827 Duplicate	9	Unidentified	SP1 succeeded
+60487077 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60488117 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60489637 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60489757 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60489777 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60493037 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60493817 Image Statement	81	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order - reverseSort, lastXnDate[2018-06-30] and currXnDate[2018-06-29]
+60496187 Image Statement	6	SP2 Parser failure	SP1 succeeded
+60496607 Image Statement Password	30	Unidentified	SP1 possibly timed out
+60497067 Duplicate	30	Unidentified	SP1 possibly timed out
+60497297 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498197 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60503417 Duplicate	30	Unidentified	SP1 possibly timed out
+60504557 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60505607 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60506167 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60507197 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60508947 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-07-61,\N,.Int.Coll.01-0 j" \, 3 86\,595.00 90\,79\,839.50or i i \, 30130500000003:Int.Coll:01-07-2018 to 31-07-2018,50000.00,-9129839.5
+60509337 Image Statement	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60509877 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60510247 Image Statement Password	12	Unidentified	SP1 succeeded
+60511197 Image Statement	10	Unidentified	SP1 succeeded
+60513687 Image Statement	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60513857 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60514907 Image Statement Password	140	Unidentified	SP1 succeeded
+60515287 Image Statement	15	SP2 Parser failure	SP1 succeeded
+60515727 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60515777 Duplicate	44	SP2 Parser failure	SP1 succeeded
+60515877 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60515977 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60516117 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60516937 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517347 Image Statement Password	41	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-09-01] currXnDate[2018-08-31] nextXnDate[2018-09-03]
+60518017 Image Statement	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60519267 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60520877 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60521857 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60522057 Image Statement Password	9	SP2 Parser failure	SP1 succeeded
+60523347 Image Statement	25	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60524907 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60525467 Image Statement	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60526537 Image Statement Password	10	Unidentified	SP1 succeeded
+60528047 Duplicate	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60528507 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60528967 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60529017 Image Statement	30	Unidentified	SP1 possibly timed out
+60529827 Duplicate	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60530847 Duplicate	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60532997 Duplicate	50	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-04-01] dateGap [533] for xn [2020-04-01,\N,18 B/F... 31.35SALARY A/C REAL TIME HR,0.00,18537.00]
+60533967 Duplicate	12	Unidentified	SP1 succeeded
+60534947 Duplicate	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60536827 Duplicate	17	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537337 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60537967 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60540717 Image Statement	35	SP2 Parser failure	SP1 succeeded
+60540777 Statement	43	Unidentified	SP1 succeeded
+60541657 Image Statement	11	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60541947 Image Statement	25	Unidentified	SP1 succeeded
+60541987 Duplicate	43	Unidentified	SP1 possibly timed out
+60541997 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60543127 Duplicate	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60543317 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543717 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543837 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543847 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543877 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543957 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544167 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544257 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60545527 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60547537 Statement Password	26	SP2 Parser failure	SP1 succeeded
+60550967 Duplicate	22	Unidentified	SP1 succeeded
+60395078 Statement	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60397358 Image Statement Password	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60407608 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60412708 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60413928 Image Statement	9	SP2 Parser failure	SP1 succeeded
+60415908 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60418668 Statement	174	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60423768 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn 2018-04-07,2,NEFTOut/UTBIN18097081234/AVON TRADERS/BARB0CENPOI,-90006,-1467726
+60424148 Duplicate	20	Unidentified	SP1 succeeded
+60424748 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60427498 Image Statement	103	Unidentified	SP1 succeeded
+60427508 Image Statement	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60427778 Duplicate	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.
+60427968 Duplicate	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-07-31] currXnDate[2018-07-27] nextXnDate[2018-07-26]
+60434388 Duplicate	8	Unidentified	SP1 succeeded
+60435298 Image Statement	251	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60435718 Duplicate	76	Unidentified	SP1 succeeded
+60438438 Image Statement	28	Unidentified	SP1 succeeded
+60440118 Duplicate	11	Unidentified	SP1 possibly timed out
+60442158 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60442428 Image Statement Password	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60442978 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60445808 Duplicate	20	Unidentified	SP1 succeeded
+60446198 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60447518 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60447738 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60449088 Image Statement	12	SP2 Parser failure	SP1 succeeded
+60450468 Image Statement	29	Unidentified	SP1 succeeded
+60451788 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60453718 Image Statement	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60453878 Duplicate	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60453968 Image Statement	23	Unidentified	SP1 succeeded
+60454188 Duplicate	23	Unidentified	SP1 succeeded
+60456188 Image Statement	16	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60456888 Duplicate	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60462628 Duplicate	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60465188 Duplicate	44	Unidentified	SP1 possibly timed out
+60468458 Image Statement	15	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60469428 Image Statement	50	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60469878 Duplicate	51	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60472108 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60472548 Image Statement	9	SP2 Parser failure	SP1 succeeded
+60475468 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60475588 Image Statement	42	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60477618 Image Statement Password	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60478278 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60479468 Image Statement	14	Unidentified	SP1 succeeded
+60481398 Image Statement	44	Unidentified	SP1 succeeded
+60482648 Duplicate	44	Unidentified	SP1 possibly timed out
+60483788 Image Statement	31	Unidentified	SP1 possibly timed out
+60486438 Duplicate	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60486878 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60486938 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60487048 Duplicate	12	SP2 Parser failure	SP1 succeeded
+60488288 Duplicate	10	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60488348 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60488438 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60489308 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60489718 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60490018 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490228 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60496068 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60496598 Image Statement Password	30	Unidentified	SP1 possibly timed out
+60496608 Image Statement Password	30	Unidentified	SP1 succeeded
+60496928 Duplicate	8	Unidentified	SP1 succeeded
+60497658 Duplicate	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498428 Duplicate	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60501778 Duplicate	35	SP2 Parser failure	SP1 succeeded
+60503148 Image Statement	41	Unidentified	SP1 succeeded
+60503678 Duplicate	41	Unidentified	SP1 succeeded
+60505648 Image Statement Password	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60507918 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515298 Image Statement Password	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60516128 Duplicate	16	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60518208 Image Statement	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60518268 Image Statement	45	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60518708 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60518848 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60519998 Duplicate	248	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60520408 Image Statement Password	2	Unidentified	SP1 succeeded
+60520738 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60520778 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60525288 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap for 2018-01-05 compared to 20180216 is 42 days and more than 30 days, cannot patch date
+60525528 Image Statement Password	12	Unidentified	SP1 succeeded
+60526058 Image Statement Password	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60526528 Duplicate	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60527578 Duplicate	15	SP2 Parser failure	SP1 succeeded
+60528278 Duplicate	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60529678 Duplicate	30	Unidentified	SP1 possibly timed out
+60530438 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60534978 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537288 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60537418 Duplicate	43	SP2 Parser failure	SP1 possibly timed out
+60537678 Duplicate	50	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date gap more than 10 days, date [2020-04-01] dateGap [533] for xn [2020-04-01,\N,18 B/F... 31.35SALARY A/C REAL TIME HR,0.00,18537.00]
+60537998 Image Statement	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60540778 Duplicate	43	Unidentified	SP1 succeeded
+60541498 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60541668 Duplicate	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60541738 Duplicate	35	SP2 Parser failure	SP1 succeeded
+60542238 Duplicate	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60543518 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544258 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60544278 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60545658 Image Statement	2	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546208 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546218 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60546248 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60547238 Image Statement Password	158	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60548168 Duplicate	11	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60548328 Image Statement	268	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60549408 Duplicate	268	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_INST This institution is not supported yet.
+60551888 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60395079 Duplicate	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60415969 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60418669 Statement	174	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60419679 Image Statement	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60419989 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60420159 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60420179 Image Statement	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60421969 Image Statement Password	77	SP2 Parser failure	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60423349 Image Statement	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-07-31] currXnDate[2018-07-27] nextXnDate[2018-07-26]
+60424759 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60425459 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60426319 Image Statement	154	SP2 Parser failure	SP1 succeeded
+60426369 Image Statement Password	4	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.
+60429499 Duplicate	11	SP2 Parser failure	SP1 succeeded
+60429809 Duplicate	178	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60430129 Image Statement	11	SP2 Parser failure	SP1 succeeded
+60431429 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60432879 Image Statement	43	SP2 Parser failure	SP1 possibly timed out
+60433539 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60433599 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60435569 Image Statement	76	Unidentified	SP1 succeeded
+60435619 Image Statement	76	Unidentified	SP1 succeeded
+60439219 Duplicate	11	Unidentified	SP1 possibly timed out
+60439569 Duplicate	11	Unidentified	SP1 possibly timed out
+60441889 Duplicate	191	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60442989 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60446199 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60448799 Statement	26	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement could not be identified by SP2.
+60450479 Image Statement	24	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-09-24] currXnDate[2018-09-20] nextXnDate[2018-09-20]
+60450599 Statement	14	Unidentified	SP1 succeeded
+60450899 Image Statement	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60450979 Image Statement	12	SP2 Parser failure	SP1 succeeded
+60451419 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60454609 Duplicate	9	SP2 Parser failure	SP1 succeeded
+60455249 Image Statement	172	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60459659 Image Statement	81	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60461919 Duplicate	20	SP2 Parser failure	SP1 succeeded
+60462659 Image Statement	9	Unidentified	SP1 succeeded
+60466729 Image Statement	35	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS Looks like the statement does not contain any transactions. Please upload a valid statement
+60469739 Statement	42	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60474979 Duplicate	20	Unidentified	SP1 succeeded
+60477799 Duplicate	20	SP2 Parser failure	SP1 possibly timed out
+60479109 Duplicate	44	Unidentified	SP1 possibly timed out
+60479469 Image Statement	14	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-06-26] currXnDate[2018-02-07] nextXnDate[2018-03-07]
+60480729 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60483899 Duplicate	31	Unidentified	SP1 possibly timed out
+60484289 Image Statement Password	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60486109 Image Statement Password	22	Unidentified	SP1 succeeded
+60486459 Duplicate	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_UNSUPPORTED_FORMAT HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
+60486779 Image Statement	12	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60487019 Duplicate	12	SP2 Parser failure	SP1 succeeded
+60488389 Image Statement	4	SP2 Parser failure	SP1 succeeded
+60488829 Duplicate	20	Unidentified	SP1 succeeded
+60488849 Image Statement Password	4	SP2 Parser failure	SP1 succeeded
+60489619 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60489799 Duplicate	4	SP2 Parser failure	SP1 succeeded
+60490249 Image Statement	17	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60490809 Image Statement	9	Unidentified	SP1 succeeded
+60491249 Duplicate	17	Unidentified	SP1 succeeded
+60492869 Duplicate	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60496579 Image Statement Password	30	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60496599 Image Statement Password	30	Unidentified	SP1 possibly timed out
+60496949 Image Statement	20	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60497009 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60497469 Image Statement Password	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498149 Image Statement	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60498239 Duplicate	22	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60498749 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60498989 Duplicate	4	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60504599 Duplicate	44	Unidentified	SP1 possibly timed out
+60506219 Duplicate	20	Unidentified	SP1 succeeded
+60510059 Duplicate	44	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60510239 Duplicate	6	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60510979 Duplicate	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-08-15] currXnDate[2018-08-14] nextXnDate[2018-08-16]
+60511239 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60513509 Image Statement	43	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60513729 Image Statement	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60513749 Image Statement	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60513779 Image Statement	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60514539 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60514739 Duplicate	44	SP2 Parser failure	SP1 succeeded
+60515639 Duplicate	9	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60515709 Duplicate	161	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60516669 Image Statement	35	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60517699 Duplicate	140	Unidentified	SP1 succeeded
+60518019 Duplicate	46	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60518729 Image Statement	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60519079 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60521159 Image Statement	15	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION Date has appeared in desc order, lastXnDate[2018-08-15] currXnDate[2018-08-14] nextXnDate[2018-08-16]
+60521869 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60522499 Image Statement	23	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60523129 Image Statement	25	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Invalid xn -0-00,\N,,,
+60524499 Image Statement	81	Unidentified	SP1 succeeded
+60528989 Duplicate	24	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60529569 Image Statement	166	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION This statement is supported by sp2 only.
+60530069 Duplicate	8	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60534359 Image Statement	32	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60537799 Image Statement	11	SP2 Parser failure	SP1 succeeded
+60537859 Duplicate	11	SP2 Parser failure	SP1 succeeded
+60543169 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543429 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543459 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60543619 Duplicate	11	SP2 Parser failure	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60545529 Duplicate	28	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60548149 Image Statement Password	11	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION Improper balance []
+60548189 Image Statement Password	17	Unidentified	SP1 failed with message #ERROR UNSUPPORTED_VERSION No xns found
+60548369 Image Statement	20	Unidentified	SP1 failed with message #ERROR INVALID E_STATEMENT_NO_TRANSACTIONS There are no transactions in this statement.
+60551619 Duplicate	77	Unidentified	SP1 failed with message #ERROR INVALID HTML File (from netbanking) converted to PDF and uploaded. Does not support such statement.
